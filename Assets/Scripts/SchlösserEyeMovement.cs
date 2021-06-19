@@ -1,0 +1,104 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class SchlösserEyeMovement : MonoBehaviour
+{
+    public Sprite[] left;
+    public Sprite[] middle;
+    public Sprite[] right;
+
+    public int dir = 0;
+    private int dir2;
+    private float check;
+    private bool blinke = false;
+
+    private GameObject p;
+    private SpriteRenderer sr;
+    void Start()
+    {
+        sr = GetComponent<SpriteRenderer>();
+        p = GameObject.FindGameObjectWithTag("Player");
+        StartCoroutine(update1());
+        //StartCoroutine(update2());
+    }
+
+    void Update()
+    {
+        dir2 = dir;
+        if (dir2 != check && !blinke)
+        {
+            setDir(dir2);
+            check = dir2;
+        }
+    }
+
+    IEnumerator update1()
+    {
+        while (true)
+        {
+            StartCoroutine(blink());
+            yield return new WaitForSecondsRealtime(6 + Random.Range(-3, 3));
+        }
+    }
+
+    IEnumerator update2()
+    {
+        while (true) {
+            setDir(Random.Range(-1, 1));
+            yield return new WaitForSecondsRealtime(6 + Random.Range(-3, 3));
+        }
+    }
+
+    IEnumerator blink()
+    {
+        float dur = 0.05f;
+        blinke = true;
+        switch (dir2)
+        {
+            case -1:
+                for (int i = 0; i < 7; i++)
+                {
+                    sr.sprite = left[i];
+                    yield return new WaitForSecondsRealtime(dur);
+                }
+            break;
+
+            case 0:
+                for (int i = 0; i < 7; i++)
+                {
+                    sr.sprite = middle[i];
+                    yield return new WaitForSecondsRealtime(dur);
+                }
+               break;
+
+            case 1:
+                for (int i = 0; i < 7; i++)
+                {
+                    sr.sprite = right[i];
+                    yield return new WaitForSecondsRealtime(dur);
+                }
+            break;
+        }
+        blinke = false;
+    }
+
+    void setDir(float i)
+    {
+        if (!blinke)
+        {
+            switch (i)
+            {
+                case -1:
+                    sr.sprite = left[0];
+                    break;
+                case 0:
+                    sr.sprite = middle[0];
+                    break;
+                case 1:
+                    sr.sprite = right[0];
+                    break;
+            }
+        }
+    }
+}
