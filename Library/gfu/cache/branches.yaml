@@ -13,10 +13,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-06-19T15:54:43.881+02:00
-  initializedAtString: 2021-06-19T15:10:42.811+02:00
-  localBranches: []
-  remoteBranches: []
+  lastUpdatedAtString: 2021-06-20T17:42:07.907+02:00
+  initializedAtString: 2021-06-20T12:23:33.777+02:00
+  localBranches:
+  - name: main
+    tracking: origin/main
+  remoteBranches:
+  - name: origin/main
+    tracking: '[None]'
   remotes:
   - name: origin
     url: https://github.com/dasNTI/LehrerSpiel.git
@@ -26,12 +30,27 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - main
+    values:
+    - name: main
+      remote:
+        name: origin
+        url: https://github.com/dasNTI/LehrerSpiel.git
+      trackingBranch: main
   remoteConfigBranches:
-    keys: []
-    subKeys: []
-    subKeyValues: []
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - main
+    subKeyValues:
+    - Values:
+      - name: main
+        remote:
+          name: origin
+          url: https://github.com/dasNTI/LehrerSpiel.git
+        trackingBranch: 
   configRemotes:
     keys:
     - origin

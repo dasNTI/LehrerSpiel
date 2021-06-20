@@ -13,6 +13,8 @@ public class SchlösserEyeMovement : MonoBehaviour
     private float check;
     private bool blinke = false;
 
+    private Moves moves;
+
     private GameObject p;
     private SpriteRenderer sr;
     void Start()
@@ -21,6 +23,7 @@ public class SchlösserEyeMovement : MonoBehaviour
         p = GameObject.FindGameObjectWithTag("Player");
         StartCoroutine(update1());
         //StartCoroutine(update2());
+        moves = new Moves();
     }
 
     void Update()
@@ -30,6 +33,16 @@ public class SchlösserEyeMovement : MonoBehaviour
         {
             setDir(dir2);
             check = dir2;
+        }
+
+        float r = p.GetComponent<Rigidbody2D>().velocity.y;
+        if (dir2 == 1)
+        {
+            //Debug.Log(r);
+            transform.eulerAngles = new Vector3(0, 0, (r / 2) * moves.side().CompareTo(0));
+        }else
+        {
+            transform.eulerAngles = Vector3.zero;
         }
     }
 
