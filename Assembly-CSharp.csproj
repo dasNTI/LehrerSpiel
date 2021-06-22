@@ -66,12 +66,14 @@
   <ItemGroup>
     <Compile Include="Assets\FinalVignette\Assets\Scripts\FinalVignette.cs" />
     <Compile Include="Assets\FinalVignette\Assets\Scripts\FinalVignetteCommandBuffer.cs" />
-    <Compile Include="Assets\Scripts\CameraMovement.cs" />
-    <Compile Include="Assets\Scripts\Dialogue_Default.cs" />
-    <Compile Include="Assets\Scripts\Moves.cs" />
-    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\SchlösserEyeMovement.cs" />
-    <Compile Include="Assets\Scripts\Transition0.cs" />
+    <Compile Include="Assets\Scripts\NoPart.cs" />
+    <Compile Include="Assets\Scripts\Trampoline.cs" />
+    <Compile Include="Assets\Scripts\main\CameraMovement.cs" />
+    <Compile Include="Assets\Scripts\main\Dialogue_Default.cs" />
+    <Compile Include="Assets\Scripts\main\Moves.cs" />
+    <Compile Include="Assets\Scripts\main\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\main\SchlösserEyeMovement.cs" />
+    <Compile Include="Assets\Scripts\main\Transition0.cs" />
     <None Include="Assets\Ideen.txt" />
     <None Include="Assets\FinalVignette\Assets\Shaders\FinalVignette.shader" />
     <None Include="Assets\FinalVignette\Documentation\ReadMe.txt" />

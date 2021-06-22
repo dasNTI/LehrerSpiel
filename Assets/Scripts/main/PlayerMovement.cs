@@ -17,6 +17,10 @@ public class PlayerMovement : MonoBehaviour
 
     public AudioSource[] Sounds;
 
+
+    private float yVelCheck = 0;
+    public float yVelPartCheck = 7;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -108,40 +112,59 @@ public class PlayerMovement : MonoBehaviour
         }
 
         if (moves.jump()) Jump();
+
+        float yv = yVelCheck - rb.velocity.y;
+        if (yv > yVelPartCheck && TouchingGround())
+        {
+            GameObject part = GameObject.FindGameObjectWithTag("GroundPart");
+            part.GetComponent<ParticleSystem>().Stop();
+            part.GetComponent<ParticleSystem>().Clear();
+            part.transform.position = transform.position + Vector3.down * 1.2f;
+            part.GetComponent<ParticleSystem>().Play();
+        }
     }
 
     void Jump()
     {
         if (TouchingGround())
         {
-
-            foreach (GameObject i in GameObject.FindGameObjectsWithTag("Schloesser_Arm"))
-            {
-                i.GetComponent<Animation>().Stop();
-                i.GetComponent<Animation>().Play();
-                i.GetComponent<Animator>().SetFloat("Blend", 0);
-            }
-
-            foreach (GameObject i in GameObject.FindGameObjectsWithTag("Schloesser_UpperLeg"))
-            {
-                i.GetComponent<Animation>().Stop();
-                i.GetComponent<Animation>().Play();
-                i.GetComponent<Animator>().SetFloat("Blend", 0);
-            }
-
-            foreach (GameObject i in GameObject.FindGameObjectsWithTag("Schloesser_LowerLeg"))
-            {
-                i.GetComponent<Animation>().Stop();
-                i.GetComponent<Animation>().Play();
-                i.GetComponent<Animator>().SetFloat("Blend", 0);
-            }
-
-            GameObject.FindGameObjectWithTag("Schloesser_Torso").GetComponent<Animator>().SetFloat("Blend", 0);
-            GameObject.FindGameObjectWithTag("Schloesser_Torso").GetComponent<Animation>().Play();
+            JumpAni();
 
             rb.velocity = new Vector2(rb.velocity.x, JumpHeight);
             Sounds[0].Play();
         }
+    }
+
+    public void JumpAni()
+    {
+        foreach (GameObject i in GameObject.FindGameObjectsWithTag("Schloesser_Arm"))
+        {
+            i.GetComponent<Animator>().SetFloat("Blend", 0);
+            i.GetComponent<Animation>().Stop();
+            i.GetComponent<Animation>().Play();
+        }
+
+        foreach (GameObject i in GameObject.FindGameObjectsWithTag("Schloesser_UpperLeg"))
+        {
+            i.GetComponent<Animator>().SetFloat("Blend", 0);
+            i.GetComponent<Animation>().Stop();
+            i.GetComponent<Animation>().Play();
+        }
+
+        foreach (GameObject i in GameObject.FindGameObjectsWithTag("Schloesser_LowerLeg"))
+        {
+            i.GetComponent<Animator>().SetFloat("Blend", 0);
+            i.GetComponent<Animation>().Stop();
+            i.GetComponent<Animation>().Play();
+        }
+
+        GameObject.FindGameObjectWithTag("Schloesser_Torso").GetComponent<Animator>().SetFloat("Blend", 0);
+        GameObject.FindGameObjectWithTag("Schloesser_Torso").GetComponent<Animation>().Play();
+    }
+
+    void Duck(bool t)
+    {
+        GameObject.FindGameObjectWithTag("Schloesser_Head").GetComponent<SchlösserEyeMovement>().close(t);
     }
 
     bool TouchingSide(float dir)

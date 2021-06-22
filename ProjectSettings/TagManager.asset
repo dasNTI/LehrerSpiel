@@ -11,6 +11,7 @@ TagManager:
   - Schloesser_Torso
   - Schloesser_LowerTorso
   - Schloesser_Head
+  - GroundPart
   layers:
   - Default
   - TransparentFX

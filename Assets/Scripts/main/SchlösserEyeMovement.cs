@@ -12,6 +12,7 @@ public class SchlösserEyeMovement : MonoBehaviour
     private int dir2;
     private float check;
     private bool blinke = false;
+    private bool closed = false;
 
     private Moves moves;
 
@@ -29,7 +30,7 @@ public class SchlösserEyeMovement : MonoBehaviour
     void Update()
     {
         dir2 = dir;
-        if (dir2 != check && !blinke)
+        if (dir2 != check && !blinke && !closed)
         {
             setDir(dir2);
             check = dir2;
@@ -46,11 +47,23 @@ public class SchlösserEyeMovement : MonoBehaviour
         }
     }
 
+    public void close(bool t)
+    {
+        closed = t;
+        if (t)
+        {
+            sr.sprite = middle[5];
+        }else
+        {
+            setDir(dir2);
+        }
+    }
+
     IEnumerator update1()
     {
         while (true)
         {
-            StartCoroutine(blink());
+            if (!closed) StartCoroutine(blink());
             yield return new WaitForSecondsRealtime(6 + Random.Range(-3, 3));
         }
     }
