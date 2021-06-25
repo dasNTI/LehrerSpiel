@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     public float MaxSpeed = 1;
     private PolygonCollider2D bc;
     public LayerMask lm;
+    private bool jump = false;
 
     private bool walking = false;
     public float walkCool = 0.3f;
@@ -70,28 +71,49 @@ public class PlayerMovement : MonoBehaviour
 
         if (moves.side() != 0 && TouchingGround())
         {
+            if (!jump)
+            {
+                foreach (GameObject i in GameObject.FindGameObjectsWithTag("Schloesser_Arm"))
+                {
+                    i.GetComponent<Animator>().SetFloat("Blend", 0.5f);
+                    if (!jump) i.GetComponent<Animation>().Stop();
+                }
+
+                foreach (GameObject i in GameObject.FindGameObjectsWithTag("Schloesser_UpperLeg"))
+                {
+                    i.GetComponent<Animator>().SetFloat("Blend", 1);
+                    i.GetComponent<Animation>().Stop();
+                }
+
+                foreach (GameObject i in GameObject.FindGameObjectsWithTag("Schloesser_LowerLeg"))
+                {
+                    i.GetComponent<Animator>().SetFloat("Blend", 1);
+                    i.GetComponent<Animation>().Stop();
+                }
+
+                GameObject.FindGameObjectWithTag("Schloesser_Torso").GetComponent<Animator>().SetFloat("Blend", 1);
+                GameObject.FindGameObjectWithTag("Schloesser_Torso").GetComponent<Animation>().Stop();
+            }
+        }
+        else if (moves.side() == 0 && TouchingGround())
+        {
             foreach (GameObject i in GameObject.FindGameObjectsWithTag("Schloesser_Arm"))
             {
-                i.GetComponent<Animator>().SetFloat("Blend", 0.5f);
-                i.GetComponent<Animation>().Stop();
+                i.GetComponent<Animator>().SetFloat("Blend", 0);
             }
 
             foreach (GameObject i in GameObject.FindGameObjectsWithTag("Schloesser_UpperLeg"))
             {
-                i.GetComponent<Animator>().SetFloat("Blend", 1);
-                i.GetComponent<Animation>().Stop();
+                i.GetComponent<Animator>().SetFloat("Blend", 0);
             }
 
             foreach (GameObject i in GameObject.FindGameObjectsWithTag("Schloesser_LowerLeg"))
             {
-                i.GetComponent<Animator>().SetFloat("Blend", 1);
-                i.GetComponent<Animation>().Stop();
+                i.GetComponent<Animator>().SetFloat("Blend", 0);
             }
 
-            GameObject.FindGameObjectWithTag("Schloesser_Torso").GetComponent<Animator>().SetFloat("Blend", 1);
-            GameObject.FindGameObjectWithTag("Schloesser_Torso").GetComponent<Animation>().Stop();
-        }
-        else if (moves.side() == 0 && TouchingGround())
+            GameObject.FindGameObjectWithTag("Schloesser_Torso").GetComponent<Animator>().SetFloat("Blend", 0);
+        }else if (!TouchingGround())
         {
             foreach (GameObject i in GameObject.FindGameObjectsWithTag("Schloesser_Arm"))
             {
@@ -114,7 +136,8 @@ public class PlayerMovement : MonoBehaviour
         if (moves.jump()) Jump();
 
         float yv = yVelCheck - rb.velocity.y;
-        if (yv > yVelPartCheck && TouchingGround())
+        RaycastHit2D ray = Physics2D.Raycast(bc.bounds.center + Vector3.down * (bc.bounds.extents.y + 0.07f) + Vector3.left * bc.bounds.extents.x, Vector3.right * bc.bounds.extents.x, bc.bounds.size.x, lm);
+        if (yv > yVelPartCheck && TouchingGround() && ray.collider.gameObject.GetComponent<NoPart>() == null)
         {
             GameObject part = GameObject.FindGameObjectWithTag("GroundPart");
             part.GetComponent<ParticleSystem>().Stop();
@@ -137,29 +160,38 @@ public class PlayerMovement : MonoBehaviour
 
     public void JumpAni()
     {
+        jump = true;
         foreach (GameObject i in GameObject.FindGameObjectsWithTag("Schloesser_Arm"))
         {
-            i.GetComponent<Animator>().SetFloat("Blend", 0);
             i.GetComponent<Animation>().Stop();
+            i.GetComponent<Animator>().SetFloat("Blend", 0);
             i.GetComponent<Animation>().Play();
         }
 
         foreach (GameObject i in GameObject.FindGameObjectsWithTag("Schloesser_UpperLeg"))
         {
-            i.GetComponent<Animator>().SetFloat("Blend", 0);
             i.GetComponent<Animation>().Stop();
+            i.GetComponent<Animator>().SetFloat("Blend", 0);
             i.GetComponent<Animation>().Play();
         }
 
         foreach (GameObject i in GameObject.FindGameObjectsWithTag("Schloesser_LowerLeg"))
         {
-            i.GetComponent<Animator>().SetFloat("Blend", 0);
             i.GetComponent<Animation>().Stop();
+            i.GetComponent<Animator>().SetFloat("Blend", 0);
             i.GetComponent<Animation>().Play();
         }
 
+        GameObject.FindGameObjectWithTag("Schloesser_Torso").GetComponent<Animation>().Stop();
         GameObject.FindGameObjectWithTag("Schloesser_Torso").GetComponent<Animator>().SetFloat("Blend", 0);
         GameObject.FindGameObjectWithTag("Schloesser_Torso").GetComponent<Animation>().Play();
+
+        IEnumerator wait()
+        {
+            yield return new WaitForSecondsRealtime(0.5f);
+            jump = false;
+        }
+        StartCoroutine(wait());
     }
 
     void Duck(bool t)
@@ -167,7 +199,7 @@ public class PlayerMovement : MonoBehaviour
         GameObject.FindGameObjectWithTag("Schloesser_Head").GetComponent<SchlösserEyeMovement>().close(t);
     }
 
-    bool TouchingSide(float dir)
+    bool TouchingSide(float dir) 
     {
         bool outp = false;
 
@@ -204,12 +236,16 @@ public class PlayerMovement : MonoBehaviour
     }
     bool TouchingGround()
     {
-        float extraHeight = 0.1f;
+        float extraHeight = 0.05f;
         float offset = -0.5f;
 
         RaycastHit2D ray1 = Physics2D.Raycast(bc.bounds.center + new Vector3(bc.bounds.extents.x + offset, 0, 0), Vector2.down, bc.bounds.extents.y + extraHeight, lm);
         RaycastHit2D ray2 = Physics2D.Raycast(bc.bounds.center - new Vector3(bc.bounds.extents.x + offset, 0, 0), Vector2.down, bc.bounds.extents.y + extraHeight, lm);
         RaycastHit2D ray3 = Physics2D.Raycast(bc.bounds.center, Vector2.down, bc.bounds.extents.y + extraHeight, lm);
+
+        Debug.DrawRay(bc.bounds.center + new Vector3(bc.bounds.extents.x + offset, 0, 0), Vector2.down * (bc.bounds.extents.y + extraHeight));
+        Debug.DrawRay(bc.bounds.center - new Vector3(bc.bounds.extents.x + offset, 0, 0), Vector2.down * (bc.bounds.extents.y + extraHeight));
+        Debug.DrawRay(bc.bounds.center, Vector2.down * (bc.bounds.extents.y + extraHeight));
 
         return ray1.collider != null || ray2.collider != null || ray3.collider != null;
     }

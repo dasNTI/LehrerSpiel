@@ -18,7 +18,7 @@ public class Trampoline : MonoBehaviour
 
     void Update()
     {
-        float extraHeight = 0.05f;
+        float extraHeight = 0.1f;
         Vector3 o = bc.bounds.center + Vector3.up * (bc.bounds.extents.y + extraHeight) + Vector3.left * width * bc.bounds.extents.x;
         RaycastHit2D ray = Physics2D.Raycast(o, Vector3.right, bc.bounds.size.x * width, lm);
         Debug.DrawRay(o, Vector3.right * bc.bounds.size.x * width);
@@ -31,7 +31,7 @@ public class Trampoline : MonoBehaviour
             Vector2 v = p.GetComponent<Rigidbody2D>().velocity;
             p.GetComponent<PlayerMovement>().JumpAni();
             sound.Play();
-            p.GetComponent<Rigidbody2D>().velocity = new Vector2(v.x, Mathf.Clamp(Mathf.Clamp(-v.y, min, 10) * jump, -10, 10));
+            p.GetComponent<Rigidbody2D>().velocity = new Vector2(v.x, Mathf.Clamp(Mathf.Clamp(-v.y, min, 10) * jump, -10, 8.33f * jump));
             cool = 1000;
             min = p.GetComponent<Rigidbody2D>().velocity.y;
         }

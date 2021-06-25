@@ -66,7 +66,10 @@
   <ItemGroup>
     <Compile Include="Assets\FinalVignette\Assets\Scripts\FinalVignette.cs" />
     <Compile Include="Assets\FinalVignette\Assets\Scripts\FinalVignetteCommandBuffer.cs" />
+    <Compile Include="Assets\Scripts\Maske.cs" />
     <Compile Include="Assets\Scripts\NoPart.cs" />
+    <Compile Include="Assets\Scripts\Tennis.cs" />
+    <Compile Include="Assets\Scripts\TennisBallMovement.cs" />
     <Compile Include="Assets\Scripts\Trampoline.cs" />
     <Compile Include="Assets\Scripts\main\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\main\Dialogue_Default.cs" />
