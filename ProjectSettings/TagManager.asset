@@ -12,6 +12,7 @@ TagManager:
   - Schloesser_LowerTorso
   - Schloesser_Head
   - GroundPart
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -24,7 +25,7 @@ TagManager:
   - Ground
   - Player
   - AbilityBlock1
-  - 
+  - Obstacle
   - 
   - 
   - 
