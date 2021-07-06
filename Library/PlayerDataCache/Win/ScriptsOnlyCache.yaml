@@ -30,7 +30,6 @@ ScriptsOnlyBuild:
     - GitHub.Unity.Window
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
-    - UnityEditor.U2D.Animation.SkinningCachePersistentState
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
     - UnityEditor.U2D.IK.IKGizmos
@@ -190,53 +189,53 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4448}
     - Class: 114
-      Script: {instanceID: 5144}
+      Script: {instanceID: 5146}
     - Class: 114
-      Script: {instanceID: 5158}
+      Script: {instanceID: 5160}
     - Class: 114
-      Script: {instanceID: 5214}
+      Script: {instanceID: 5216}
     - Class: 114
-      Script: {instanceID: 5220}
-    - Class: 114
-      Script: {instanceID: 5414}
+      Script: {instanceID: 5222}
     - Class: 114
       Script: {instanceID: 5416}
     - Class: 114
-      Script: {instanceID: 5438}
+      Script: {instanceID: 5418}
     - Class: 114
-      Script: {instanceID: 5784}
+      Script: {instanceID: 5440}
     - Class: 114
-      Script: {instanceID: 5902}
+      Script: {instanceID: 5786}
     - Class: 114
-      Script: {instanceID: 6040}
+      Script: {instanceID: 5904}
     - Class: 114
-      Script: {instanceID: 6112}
+      Script: {instanceID: 6042}
     - Class: 114
-      Script: {instanceID: 6118}
+      Script: {instanceID: 6114}
     - Class: 114
-      Script: {instanceID: 6224}
+      Script: {instanceID: 6120}
     - Class: 114
-      Script: {instanceID: 6260}
+      Script: {instanceID: 6226}
     - Class: 114
-      Script: {instanceID: 6306}
+      Script: {instanceID: 6262}
     - Class: 114
-      Script: {instanceID: 6374}
+      Script: {instanceID: 6308}
     - Class: 114
-      Script: {instanceID: 6382}
+      Script: {instanceID: 6376}
     - Class: 114
-      Script: {instanceID: 6480}
+      Script: {instanceID: 6384}
     - Class: 114
-      Script: {instanceID: 6616}
+      Script: {instanceID: 6482}
     - Class: 114
-      Script: {instanceID: 6728}
+      Script: {instanceID: 6618}
     - Class: 114
-      Script: {instanceID: 6782}
+      Script: {instanceID: 6730}
     - Class: 114
-      Script: {instanceID: 7384}
+      Script: {instanceID: 6784}
     - Class: 114
-      Script: {instanceID: 7696}
+      Script: {instanceID: 7386}
     - Class: 114
-      Script: {instanceID: 7932}
+      Script: {instanceID: 7698}
+    - Class: 114
+      Script: {instanceID: 7934}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -297,25 +296,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4968}
     - Class: 114
-      Script: {instanceID: 5098}
+      Script: {instanceID: 5030}
     - Class: 114
-      Script: {instanceID: 5470}
+      Script: {instanceID: 5100}
     - Class: 114
-      Script: {instanceID: 5856}
+      Script: {instanceID: 5472}
     - Class: 114
-      Script: {instanceID: 5902}
+      Script: {instanceID: 5858}
     - Class: 114
-      Script: {instanceID: 6156}
+      Script: {instanceID: 5904}
     - Class: 114
-      Script: {instanceID: 6188}
+      Script: {instanceID: 6158}
     - Class: 114
-      Script: {instanceID: 6662}
+      Script: {instanceID: 6190}
     - Class: 114
-      Script: {instanceID: 7826}
+      Script: {instanceID: 6664}
     - Class: 114
-      Script: {instanceID: 7844}
+      Script: {instanceID: 7828}
     - Class: 114
-      Script: {instanceID: 28642}
+      Script: {instanceID: 7846}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -412,27 +411,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4968}
     - Class: 114
-      Script: {instanceID: 5098}
+      Script: {instanceID: 5100}
     - Class: 114
-      Script: {instanceID: 5470}
+      Script: {instanceID: 5472}
     - Class: 114
-      Script: {instanceID: 5902}
+      Script: {instanceID: 5904}
     - Class: 114
-      Script: {instanceID: 5998}
+      Script: {instanceID: 6000}
     - Class: 114
-      Script: {instanceID: 6156}
+      Script: {instanceID: 6158}
     - Class: 114
-      Script: {instanceID: 6252}
+      Script: {instanceID: 6254}
     - Class: 114
-      Script: {instanceID: 6838}
+      Script: {instanceID: 6840}
     - Class: 114
-      Script: {instanceID: 6908}
+      Script: {instanceID: 6910}
     - Class: 114
-      Script: {instanceID: 7096}
+      Script: {instanceID: 7098}
     - Class: 114
-      Script: {instanceID: 7714}
+      Script: {instanceID: 7716}
     - Class: 114
-      Script: {instanceID: 7844}
+      Script: {instanceID: 7846}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1044,6 +1043,12 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
+      Hash: d439b87d5ad314da0e4eeaf018ae39cc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MatheLifeSprite
+  - hash:
+      serializedVersion: 2
       Hash: d1b036fbe5adcfe372c77a9d812c7e37
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEditor.U2D.IK
@@ -1540,12 +1545,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: d439b87d5ad314da0e4eeaf018ae39cc
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MatheLifeSprite
   platform: 5
   scenePathNames:
   - Assets/Scenes/Levels.unity

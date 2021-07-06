@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\Mathe\MatheObstacleMovement.cs" />
     <Compile Include="Assets\Scripts\Sport\Trampoline.cs" />
     <Compile Include="Assets\Scripts\main\CameraMovement.cs" />
+    <Compile Include="Assets\Scripts\Mathe\MatheLifeSprite.cs" />
     <Compile Include="Assets\Scripts\Mathe\MatheCameraMovement.cs" />
     <Compile Include="Assets\Scripts\Mathe\MatheObstaclePlacement.cs" />
     <Compile Include="Assets\Scripts\Sport\Tennis.cs" />
@@ -80,7 +81,6 @@
     <Compile Include="Assets\FinalVignette\Assets\Scripts\FinalVignetteCommandBuffer.cs" />
     <Compile Include="Assets\Scripts\main\Transition0.cs" />
     <Compile Include="Assets\Scripts\Mathe\MatheFloorMovement.cs" />
-    <Compile Include="Assets\Scripts\Mathe\MatheLifeSprite.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
