@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Levels.unity
+    guid: b1e22fdd636b9ab49a55499e42f8b5d5
+  - enabled: 1
+    path: Assets/Scenes/Mathe.unity
+    guid: becf414cdbfb3b540bf4a48500ec004d
+  - enabled: 1
+    path: Assets/Scenes/Sport.unity
+    guid: 3694fb869224624428665f145ae67588
   m_configObjects: {}

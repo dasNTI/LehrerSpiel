@@ -13,6 +13,9 @@ TagManager:
   - Schloesser_Head
   - GroundPart
   - Ground
+  - Ability1
+  - Overlay1
+  - Overlay2
   layers:
   - Default
   - TransparentFX
@@ -26,7 +29,7 @@ TagManager:
   - Player
   - AbilityBlock1
   - Obstacle
-  - 
+  - Overlay
   - 
   - 
   - 

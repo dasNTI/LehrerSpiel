@@ -9,8 +9,8 @@ public class MatheObstacleMovement : MonoBehaviour
     private MatheFloorMovement mfm;
     void Start()
     {
-        mfm = GameObject.FindGameObjectWithTag("Player").GetComponent<MatheFloorMovement>();
-        transform.position = new Vector3((row * 2 + 1) * 11 / rows / 2 - 5.5f, 7.5f, 0);
+        mfm = GameObject.FindGameObjectWithTag("Ground").GetComponent<MatheFloorMovement>();
+        transform.position = new Vector3((row * 2 + 1) * 10.6f / rows / 2 - 5.3f, 10, 0);
     }
 
     // Update is called once per frame
