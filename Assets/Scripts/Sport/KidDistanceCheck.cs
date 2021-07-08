@@ -6,6 +6,7 @@ public class KidDistanceCheck : MonoBehaviour
 {
     private PolygonCollider2D pc;
     public LayerMask lm;
+    public float len = 10;
     void Start()
     {
         pc = GetComponent<PolygonCollider2D>();
@@ -14,12 +15,15 @@ public class KidDistanceCheck : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log(check());
+        if (check())
+        {
+            GameObject.FindGameObjectWithTag("Ability1").GetComponent<Maske>().emit();
+        }
     }
 
     bool check()
     {
-        int len = 10;
+        
         int rays = 20;
         float mul = 360 / rays;
         bool o = false;

@@ -18,6 +18,10 @@ public class Maske : MonoBehaviour
 
     public VolumeProfile vp;
 
+    bool alerting = false;
+
+    public AudioSource Alert;
+
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -43,7 +47,7 @@ public class Maske : MonoBehaviour
         {
             on = true;
         }
-        else if (CheckAbilityAvailable() && on)
+        else if (on)
         {
             on = false;
         }
@@ -62,5 +66,26 @@ public class Maske : MonoBehaviour
             if (ray.collider != null) o = true;
         }
         return o;
+    }
+
+    public void emit()
+    {
+        if (!alerting && !on)
+        {
+            alerting = true;
+            Alert.Play();
+            StartCoroutine(OverlayAni1());
+            StartCoroutine(OverlayAni2());
+        }
+    }
+
+    IEnumerator OverlayAni1()
+    {
+        yield return null;
+    }
+
+    IEnumerator OverlayAni2()
+    {
+        yield return null;
     }
 }

@@ -77,7 +77,6 @@ public class CameraMovement : MonoBehaviour
         Vector2 dif = new Vector2(10, 10);
         while (true)
         {
-            Debug.Log("1");
             Vector2 v = rb.velocity;
 
             float xdif = Player.transform.position.x - transform.position.x;

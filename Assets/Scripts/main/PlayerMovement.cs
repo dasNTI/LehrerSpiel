@@ -281,4 +281,9 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSecondsRealtime(3);
         moves.jum = false;
     }
+
+    public void ResetToCheckpoint()
+    {
+        
+    }
 }
