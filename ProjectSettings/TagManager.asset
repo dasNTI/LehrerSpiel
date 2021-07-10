@@ -16,6 +16,7 @@ TagManager:
   - Ability1
   - Overlay1
   - Overlay2
+  - Overlay3
   layers:
   - Default
   - TransparentFX
@@ -30,7 +31,7 @@ TagManager:
   - AbilityBlock1
   - Obstacle
   - Overlay
-  - 
+  - Iteraction1
   - 
   - 
   - 

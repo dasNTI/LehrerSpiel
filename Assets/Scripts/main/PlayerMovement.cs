@@ -145,6 +145,11 @@ public class PlayerMovement : MonoBehaviour
             part.transform.position = transform.position + Vector3.down * 1.2f;
             part.GetComponent<ParticleSystem>().Play();
         }
+
+        if (Input.GetKeyDown("left shift"))
+        {
+            Debug.Log("yeet");
+        }
     }
 
     void Jump()
