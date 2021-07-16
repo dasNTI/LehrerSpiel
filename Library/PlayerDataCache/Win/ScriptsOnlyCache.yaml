@@ -10,20 +10,20 @@ ScriptsOnlyBuild:
     - MatheLifeSprite
     - MatheObstaclePlacement
     - MathePlayerMovement
+    - MatheWayCounter
     - NoPart
     - PlayerMovement
     - "Schl\xF6sserEyeMovement"
     - Tennis
     - Trampoline
+    - Transition0
     - VoiceLine
     - changescene
     GitHub.Unity.45.dll:
     - GitHub.Unity.ApplicationCache
-    - GitHub.Unity.BranchesCache
     - GitHub.Unity.EnvironmentCache
     - GitHub.Unity.GitAheadBehindCache
     - GitHub.Unity.GitLocksCache
-    - GitHub.Unity.GitLogCache
     - GitHub.Unity.GitStatusCache
     - GitHub.Unity.RepositoryInfoCache
     - GitHub.Unity.Window
@@ -31,10 +31,13 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -96,8 +99,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -208,29 +213,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6142}
     - Class: 114
-      Script: {instanceID: 6250}
+      Script: {instanceID: 6252}
     - Class: 114
-      Script: {instanceID: 6286}
+      Script: {instanceID: 6288}
     - Class: 114
-      Script: {instanceID: 6332}
+      Script: {instanceID: 6334}
     - Class: 114
-      Script: {instanceID: 6400}
+      Script: {instanceID: 6402}
     - Class: 114
-      Script: {instanceID: 6408}
+      Script: {instanceID: 6410}
     - Class: 114
-      Script: {instanceID: 6506}
+      Script: {instanceID: 6508}
     - Class: 114
-      Script: {instanceID: 6642}
+      Script: {instanceID: 6644}
     - Class: 114
-      Script: {instanceID: 6754}
+      Script: {instanceID: 6756}
     - Class: 114
-      Script: {instanceID: 6808}
+      Script: {instanceID: 6810}
     - Class: 114
-      Script: {instanceID: 7412}
+      Script: {instanceID: 7414}
     - Class: 114
-      Script: {instanceID: 7724}
+      Script: {instanceID: 7726}
     - Class: 114
-      Script: {instanceID: 7962}
+      Script: {instanceID: 7964}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -266,6 +271,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
@@ -273,6 +280,8 @@ ScriptsOnlyBuild:
     - Class: 83
       Script: {instanceID: 0}
     - Class: 104
+      Script: {instanceID: 0}
+    - Class: 111
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 1696}
@@ -305,11 +314,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6214}
     - Class: 114
-      Script: {instanceID: 6688}
+      Script: {instanceID: 6240}
     - Class: 114
-      Script: {instanceID: 7856}
+      Script: {instanceID: 6690}
     - Class: 114
-      Script: {instanceID: 7874}
+      Script: {instanceID: 7858}
+    - Class: 114
+      Script: {instanceID: 7876}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -420,17 +431,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6182}
     - Class: 114
-      Script: {instanceID: 6278}
+      Script: {instanceID: 6280}
     - Class: 114
-      Script: {instanceID: 6400}
+      Script: {instanceID: 6402}
     - Class: 114
-      Script: {instanceID: 6864}
+      Script: {instanceID: 6866}
     - Class: 114
-      Script: {instanceID: 6934}
+      Script: {instanceID: 6936}
     - Class: 114
-      Script: {instanceID: 7124}
+      Script: {instanceID: 7126}
     - Class: 114
-      Script: {instanceID: 7874}
+      Script: {instanceID: 7744}
+    - Class: 114
+      Script: {instanceID: 7876}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -820,7 +833,7 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerVBox
   - hash:
       serializedVersion: 2
-      Hash: 17e4ecb4a3a7280f54cc78676c29c9de
+      Hash: 1ed965a394b94a00ea48073d163767c7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MathePlayerMovement
@@ -880,7 +893,7 @@ ScriptsOnlyBuild:
     className: SpriteShapeGeometryCache
   - hash:
       serializedVersion: 2
-      Hash: afa168732ec4210e8246ded2696d1fc7
+      Hash: 68770b6c9d8a4af6622d412ba6ec9a99
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MatheObstacleMovement
@@ -1228,10 +1241,16 @@ ScriptsOnlyBuild:
     className: LiftGammaGain
   - hash:
       serializedVersion: 2
-      Hash: f15a2cb226724175bb7baf27cf7a9274
+      Hash: 83aa2426e00f8772f6aae11fe1e0317b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MatheObstaclePlacement
+  - hash:
+      serializedVersion: 2
+      Hash: 479c06b13c7e716435aac89eaea21f5e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MatheWayCounter
   - hash:
       serializedVersion: 2
       Hash: bb6b9a25e695d7981ce2d853a697a828

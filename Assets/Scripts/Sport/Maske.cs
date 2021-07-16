@@ -118,11 +118,11 @@ public class Maske : MonoBehaviour
         tx.color = new UnityEngine.Color(255, 0, 0, v1);
         tx1.color = new UnityEngine.Color(255, 0, 0, v1);
         tx1.text = "[ " + MaskButton.ToUpper() + " ] drücken!";
-        for (int i = 0; i < 100; i++)
+        for (int i = 0; i < 20; i++)
         {
-            tx.color = new UnityEngine.Color(255, 0, 0, tx.color.a + v2 / 100);
-            tx1.color = new UnityEngine.Color(255, 0, 0, tx1.color.a + v2 / 100);
-            yield return new WaitForSecondsRealtime(dur / 100);
+            tx.color = new UnityEngine.Color(255, 0, 0, tx.color.a + v2 / 20);
+            tx1.color = new UnityEngine.Color(255, 0, 0, tx1.color.a + v2 / 20);
+            yield return new WaitForSecondsRealtime(dur / 20);
         }
         OverlayFadeAni = null;
     }

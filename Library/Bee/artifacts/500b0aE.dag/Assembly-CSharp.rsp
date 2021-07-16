@@ -365,6 +365,7 @@
 "Assets/Scripts/Mathe/MatheObstacleMovement.cs"
 "Assets/Scripts/Mathe/MatheObstaclePlacement.cs"
 "Assets/Scripts/Mathe/MathePlayerMovement.cs"
+"Assets/Scripts/Mathe/MatheWayCounter.cs"
 "Assets/Scripts/Sport/KidDistanceCheck.cs"
 "Assets/Scripts/Sport/Maske.cs"
 "Assets/Scripts/Sport/NoPart.cs"

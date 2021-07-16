@@ -6,6 +6,12 @@ public class MatheObstaclePlacement : MonoBehaviour
 {
     public int rows;
     public Sprite[] students;
+    public Sprite[] bags;
+    public LayerMask lm;
+
+    public float SpawnRate = 5;
+
+    private int LastRow;
 
 
     void Start()
@@ -22,11 +28,10 @@ public class MatheObstaclePlacement : MonoBehaviour
     void spawn()
     {
         Debug.Log("yeet");
-        int t = 0; // Random.Range(0, stuff.Length - 1);
+        int t = Random.Range(0, 2);
         int row = 0;
 
         GameObject o = new GameObject("obs");
-        o.layer = 11;
 
         SpriteRenderer sr = o.AddComponent<SpriteRenderer>();
 
@@ -36,12 +41,23 @@ public class MatheObstaclePlacement : MonoBehaviour
                 int s = Random.Range(0, students.Length);
                 sr.sprite = students[s];
                 row = Random.Range(0, 2) * 2;
+                while (row == LastRow) row = Random.Range(0, 2) * 2;
                 if (row == 0) sr.flipX = true;
                 break;
 
+            case 1:
+
+                s = Random.Range(0, bags.Length);
+                sr.sprite = bags[s];
+                row = Random.Range(0, 3);
+                while (row == LastRow) row = Random.Range(0, 3);
+                break;
         }
 
+        LastRow = row;
+
         MatheObstacleMovement mom = o.AddComponent<MatheObstacleMovement>();
+        mom.lm = 11;
         mom.rows = rows;
         mom.row = row;
 
@@ -52,10 +68,10 @@ public class MatheObstaclePlacement : MonoBehaviour
 
     IEnumerator routine()
     {
-        for (int i = 0; i < 10; i++)
+        while (true)
         {
             spawn();
-            yield return new WaitForSecondsRealtime(5);
+            yield return new WaitForSecondsRealtime(SpawnRate + Random.RandomRange(-1, 2));
         }
     }
 }

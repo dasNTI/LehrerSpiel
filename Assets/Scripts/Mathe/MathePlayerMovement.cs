@@ -7,16 +7,19 @@ public class MathePlayerMovement : MonoBehaviour
     private BoxCollider2D bc;
     public LayerMask lm;
     public int rows = 2;
-    public float row;
+    public float row = 1;
     private float y = -3.2f;
     private bool changing = false;
 
-    private bool crash;
+    private bool crash = false;
     public AudioSource sound;
     public AudioSource sound1;
     private SpriteRenderer sr;
 
     public int lives = 3;
+
+    public Sprite[] sprites;
+    private bool walks = false;
 
     private Moves moves;
     void Start()
@@ -26,6 +29,7 @@ public class MathePlayerMovement : MonoBehaviour
         row = 0;
         moves = new Moves();
         lives = 3;
+        StartCoroutine(walk());
     }
 
     // Update is called once per frame
@@ -33,6 +37,7 @@ public class MathePlayerMovement : MonoBehaviour
     {
         if (moves.side() != 0 && !changing && !crash)
         {
+            Debug.Log(moves.side());
             switch (moves.side().CompareTo(0))
             {
                 case -1: 
@@ -60,7 +65,7 @@ public class MathePlayerMovement : MonoBehaviour
                 StartCoroutine(crashAni());
             }
         }
-
+            
         if (!crash) transform.position = new Vector3((row * 2 + 1) * 11 / rows / 2 - 5.5f, y, 0);
         if (crash && lives == 0) transform.Translate(new Vector3(0, -GameObject.FindGameObjectWithTag("Ground").GetComponent<MatheFloorMovement>().dir, 0));
     }
@@ -105,5 +110,19 @@ public class MathePlayerMovement : MonoBehaviour
             yield return new WaitForSecondsRealtime(0.25f);
         }
         crash = false;
+    }
+
+    IEnumerator walk()
+    {
+        int i = 0;
+        float dur = 0.4f;
+        while (true)
+        {
+            sr.sprite = sprites[i];
+            i = walks ? 0 : 1;
+            walks = !walks;
+            yield return new WaitForSecondsRealtime(dur);
+            if (crash) yield return new WaitWhile(() => crash);
+        }
     }
 }   

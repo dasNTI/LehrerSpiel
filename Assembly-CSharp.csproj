@@ -79,6 +79,7 @@
     <Compile Include="Assets\Packages\SoftEffects\Scripts\GPUWorker.cs" />
     <Compile Include="Assets\Packages\SoftEffects\Scripts\PrintData.cs" />
     <Compile Include="Assets\Scripts\Mathe\MatheObstaclePlacement.cs" />
+    <Compile Include="Assets\Scripts\Mathe\MatheWayCounter.cs" />
     <Compile Include="Assets\Scripts\Sport\Tennis.cs" />
     <Compile Include="Assets\Scripts\main\Dialogue_Default.cs" />
     <Compile Include="Assets\Scripts\main\SchlösserEyeMovement.cs" />

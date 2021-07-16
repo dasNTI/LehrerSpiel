@@ -625,7 +625,7 @@ GameObject:
   - component: {fileID: 1295167198}
   - component: {fileID: 1295167200}
   - component: {fileID: 1295167201}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Schoop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -740,6 +740,17 @@ MonoBehaviour:
   students:
   - {fileID: 21300000, guid: 07d27b822b43cc84784b70a3ef46fc2e, type: 3}
   - {fileID: 21300000, guid: 93fdeb64e23ebd04fb63e14820dfb69c, type: 3}
+  bags:
+  - {fileID: 21300000, guid: 29ec12f5d4284154285dca6e86c3275a, type: 3}
+  - {fileID: 21300000, guid: 30bf1111db4b7314ab8bfd001ef1fbde, type: 3}
+  - {fileID: 21300000, guid: a9c211ee605692a458cc798982fd1aac, type: 3}
+  - {fileID: 21300000, guid: dde0747eade8e1543b387aa9a8b52036, type: 3}
+  - {fileID: 21300000, guid: cf1c7762fb4efc042980db532a968750, type: 3}
+  - {fileID: 21300000, guid: 5db5fc27f56a78e4c9567ae52e41abc8, type: 3}
+  lm:
+    serializedVersion: 2
+    m_Bits: 0
+  SpawnRate: 1
 --- !u!1 &1312824240
 GameObject:
   m_ObjectHideFlags: 0
@@ -750,7 +761,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1312824244}
   - component: {fileID: 1312824243}
-  - component: {fileID: 1312824242}
   - component: {fileID: 1312824241}
   m_Layer: 0
   m_Name: Overlay
@@ -791,14 +801,6 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
---- !u!81 &1312824242
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1312824240}
-  m_Enabled: 1
 --- !u!20 &1312824243
 Camera:
   m_ObjectHideFlags: 0
@@ -999,6 +1001,7 @@ GameObject:
   - component: {fileID: 1762657924}
   - component: {fileID: 1762657925}
   - component: {fileID: 1762657926}
+  - component: {fileID: 1762657927}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1146,6 +1149,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 23.71, y: 16.27, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!111 &1762657927
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762657919}
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 5ddb5f6e3337b0a43b1fb6c635f77fea, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 5ddb5f6e3337b0a43b1fb6c635f77fea, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!850595691 &1844559670
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -1219,6 +1238,7 @@ GameObject:
   - component: {fileID: 2013451978}
   - component: {fileID: 2013451977}
   - component: {fileID: 2013451980}
+  - component: {fileID: 2013451981}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -1242,10 +1262,13 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 2048
   rows: 3
-  row: 0
+  row: 1
   sound: {fileID: 987824081}
   sound1: {fileID: 1166521}
   lives: 3
+  sprites:
+  - {fileID: 21300000, guid: 9fa0738ed34d8584685e556141dc3010, type: 3}
+  - {fileID: 21300000, guid: 614c0b77a16376943881244844989c60, type: 3}
 --- !u!212 &2013451978
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1287,7 +1310,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 188be0c724805bd409e1cefd4fc8883c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9fa0738ed34d8584685e556141dc3010, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1307,7 +1330,7 @@ Transform:
   m_GameObject: {fileID: 2013451976}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -3.32, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 6.0924, y: 6.0924, z: 6.0924}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -1328,16 +1351,30 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    pivot: {x: 0.5, y: 0.29}
+    oldSize: {x: 0.33, y: 0.82}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.4, y: 0.4}
   m_EdgeRadius: 0
+--- !u!114 &2013451981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013451976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e25e8281d19444a4b9e02170b639311b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FinishLine: 150
+  Current: 0
 --- !u!1001 &4812090411972819668
 PrefabInstance:
   m_ObjectHideFlags: 0
