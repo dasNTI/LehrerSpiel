@@ -1,0 +1,20 @@
+Als nächstes steht Physik auf deiner Liste. /2
+Du gehst zum Physikraum und schaust dich um, doch Frau Kuhn ist nicht zu sehen. /4
+Kommt sie wieder zu spät? /2
+Deine Schüler hatten dir schon mal sowas in der Art erzählt. /3
+Es sei nichts Ungewöhnliches meinten sie. /3
+Du beschließt, zu warten. /2
+/1
+Erleichtert über die kleine Pause von deinem bisher sehr verrückten Tag /3
+schaust du dir die Modelle von den Motoren an. /3
+Einer gefällt dir besonders. /2
+Du wartest also /2
+/3
+{0/1
+/1
+So langsam müsste sie aber kommen… /1
+Verwundert schaust du dich nochmal um. /2
+Da sie nicht zu sehen ist, beschließt du, zum Lehrerzimmer zu gehen. /3
+Doch weder im Lehrerzimmer noch in ihrem Büro kannst du sie finden. /3
+{1/1
+Weitere fünf Minuten später fängst du an, sie zu suchen. /3

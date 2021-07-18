@@ -29,18 +29,35 @@ public class MatheObstacleMovement : MonoBehaviour
     void checkIfPossible()
     {
         bool change = true;
-        
-        for (int i = 0; i < 3; i++)
-        {
-            row = i;
 
-            bool clear = true;
-            for (int j = 0; j < 4; j++)
-            {
-                RaycastHit2D ray = Physics2D.Raycast(pc.bounds.center, new Vector2(Mathf.Cos(i * 90), Mathf.Sin(i * 90)), 1, lm);
-                if (ray.collider != null) clear = false;
-            }
-            if (clear) i = 4;
+        float len = 2.5f;
+
+        bool clear = true;
+
+        bool c()
+        {
+            RaycastHit2D ray1 = Physics2D.Raycast(pc.bounds.center + Vector3.up * pc.bounds.extents.y * 1.5f, Vector2.left, len, lm);
+            RaycastHit2D ray2 = Physics2D.Raycast(pc.bounds.center - Vector3.up * pc.bounds.extents.y * 1.5f, Vector2.left, len, lm);
+            RaycastHit2D ray3 = Physics2D.Raycast(pc.bounds.center + Vector3.up * pc.bounds.extents.y * 1.5f, Vector2.right, len, lm);
+            RaycastHit2D ray4 = Physics2D.Raycast(pc.bounds.center - Vector3.up * pc.bounds.extents.y * 1.5f, Vector2.right, len, lm);
+
+            return !(ray1.collider != null || ray2.collider != null || ray3.collider != null || ray4.collider != null);
+        }
+
+        if (row == 1)
+        {
+            RaycastHit2D ray1 = Physics2D.Raycast(pc.bounds.center + Vector3.up * pc.bounds.extents.y * 1.5f, Vector2.left, len, lm);
+            RaycastHit2D ray2 = Physics2D.Raycast(pc.bounds.center - Vector3.up * pc.bounds.extents.y * 1.5f, Vector2.left, len, lm);
+            RaycastHit2D ray3 = Physics2D.Raycast(pc.bounds.center + Vector3.up * pc.bounds.extents.y * 1.5f, Vector2.right, len, lm);
+            RaycastHit2D ray4 = Physics2D.Raycast(pc.bounds.center - Vector3.up * pc.bounds.extents.y * 1.5f, Vector2.right, len, lm);
+
+            if (ray1.collider != null || ray2.collider != null || ray3.collider != null || ray4.collider != null) Destroy(transform.gameObject);
+
+        }
+
+        if (!c())
+        {
+            Destroy(transform.gameObject);
         }
 
         transform.gameObject.layer = 11;

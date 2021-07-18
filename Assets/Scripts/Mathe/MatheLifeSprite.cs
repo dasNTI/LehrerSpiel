@@ -25,6 +25,12 @@ public class MatheLifeSprite : MonoBehaviour
             StartCoroutine(die());
             alive = false;
         }
+
+        if (!alive && lives >= Life)
+        {
+            alive = true;
+            im.enabled = true;
+        }
     }
 
     IEnumerator die()

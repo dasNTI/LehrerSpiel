@@ -59,6 +59,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Cutscenes\TextChange.cs" />
     <Compile Include="Assets\Scripts\Sport\NoPart.cs" />
     <Compile Include="Assets\Scripts\changescene.cs" />
     <Compile Include="Assets\Scripts\Sport\KidDistanceCheck.cs" />
@@ -96,12 +97,15 @@
     <None Include="Assets\Packages\SoftEffects\Shaders\SoftShaderFont.shader" />
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\Texts\Cutscenes\Sport.txt" />
     <None Include="Assets\Ideen.txt" />
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\Packages\FinalVignette\Assets\Shaders\FinalVignette.shader" />
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Texts\Cutscenes\Physik.txt" />
     <None Include="Assets\Packages\SoftEffects\Shaders\SoftEffectsCompute.compute" />
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\Texts\Cutscenes\MatheDialog.txt" />
     <None Include="Assets\Packages\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMP_SDF.shader" />
@@ -111,6 +115,7 @@
     <None Include="Assets\Packages\SoftEffects\Shaders\SoftShaderSpriteWithShadows.shader" />
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Packages\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Texts\Cutscenes\Start.txt" />
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />

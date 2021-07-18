@@ -13,10 +13,15 @@ public class MatheObstaclePlacement : MonoBehaviour
 
     private int LastRow;
 
+    private MathePlayerMovement mpm;
+    private MatheFloorMovement mfm;
+
 
     void Start()
     {
         StartCoroutine(routine());
+        mpm = GameObject.FindGameObjectWithTag("Player").GetComponent<MathePlayerMovement>();
+        mfm = GameObject.FindGameObjectWithTag("Ground").GetComponent<MatheFloorMovement>();
     }
 
     // Update is called once per frame
@@ -27,7 +32,7 @@ public class MatheObstaclePlacement : MonoBehaviour
 
     void spawn()
     {
-        Debug.Log("yeet");
+        //Debug.Log("yeet");
         int t = Random.Range(0, 2);
         int row = 0;
 
@@ -46,7 +51,6 @@ public class MatheObstaclePlacement : MonoBehaviour
                 break;
 
             case 1:
-
                 s = Random.Range(0, bags.Length);
                 sr.sprite = bags[s];
                 row = Random.Range(0, 3);
@@ -57,21 +61,25 @@ public class MatheObstaclePlacement : MonoBehaviour
         LastRow = row;
 
         MatheObstacleMovement mom = o.AddComponent<MatheObstacleMovement>();
-        mom.lm = 11;
+        mom.lm = lm;
         mom.rows = rows;
         mom.row = row;
 
         o.transform.localScale = Vector3.one * 0.35f;
+
+        o.tag = "Obstacle";
 
         PolygonCollider2D pc = o.AddComponent<PolygonCollider2D>();
     }
 
     IEnumerator routine()
     {
-        while (true)
+        yield return new WaitForSecondsRealtime(1);
+        bool rep = true;
+        while (rep)
         {
             spawn();
-            yield return new WaitForSecondsRealtime(SpawnRate + Random.RandomRange(-1, 2));
+            yield return new WaitForSecondsRealtime(Random.RandomRange(0.5f, SpawnRate + 1.0f));
         }
     }
 }

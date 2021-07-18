@@ -37,7 +37,7 @@ public class MathePlayerMovement : MonoBehaviour
     {
         if (moves.side() != 0 && !changing && !crash)
         {
-            Debug.Log(moves.side());
+            //Debug.Log(moves.side());
             switch (moves.side().CompareTo(0))
             {
                 case -1: 
@@ -58,6 +58,7 @@ public class MathePlayerMovement : MonoBehaviour
             StartCoroutine(GameObject.FindGameObjectWithTag("MainCamera").GetComponent<MatheCameraMovement>().shake());
             if (lives == 0)
             {
+                GameObject.FindGameObjectWithTag("Ground").GetComponent<MatheFloorMovement>().dir = 0.1f;
                 GameObject.FindGameObjectWithTag("Ground").GetComponent<MatheFloorMovement>().speed = 0;
             }else
             {
@@ -89,7 +90,7 @@ public class MathePlayerMovement : MonoBehaviour
     {
         float extraHeight = 0.1f;
         RaycastHit2D ray = Physics2D.Raycast(bc.bounds.center, Vector3.up, bc.bounds.extents.y + extraHeight, lm);
-        Debug.DrawRay(bc.bounds.center, Vector3.up * (bc.bounds.extents.y + extraHeight));
+        Debug.DrawRay(bc.bounds.center + Vector3.down * bc.bounds.extents.y, Vector3.up * (bc.bounds.extents.y + extraHeight));
         return ray.collider != null;
     }
 
@@ -124,5 +125,11 @@ public class MathePlayerMovement : MonoBehaviour
             yield return new WaitForSecondsRealtime(dur);
             if (crash) yield return new WaitWhile(() => crash);
         }
+    }
+
+    public void respawn()
+    {
+        foreach (GameObject i in GameObject.FindGameObjectsWithTag("Obstacle")) Destroy(i);
+        lives = 3;
     }
 }   

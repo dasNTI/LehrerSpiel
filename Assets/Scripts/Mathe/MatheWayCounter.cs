@@ -18,6 +18,5 @@ public class MatheWayCounter : MonoBehaviour
     void Update()
     {
         Current += mfm.dir / 10;
-        Debug.Log(Current);
     }
 }

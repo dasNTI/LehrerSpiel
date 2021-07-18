@@ -17,6 +17,7 @@ TagManager:
   - Overlay1
   - Overlay2
   - Overlay3
+  - Obstacle
   layers:
   - Default
   - TransparentFX

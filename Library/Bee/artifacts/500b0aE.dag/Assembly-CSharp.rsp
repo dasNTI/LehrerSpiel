@@ -352,6 +352,7 @@
 "Assets/Packages/SoftEffects/Scripts/SoftEffectsFont.cs"
 "Assets/Packages/SoftEffects/Scripts/Styles.cs"
 "Assets/Scripts/changescene.cs"
+"Assets/Scripts/Cutscenes/TextChange.cs"
 "Assets/Scripts/main/CameraMovement.cs"
 "Assets/Scripts/main/Dialogue_Default.cs"
 "Assets/Scripts/main/Moves.cs"
