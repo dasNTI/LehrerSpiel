@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-07-19T13:07:31.218+02:00
-  initializedAtString: 2021-07-19T13:07:31.218+02:00
+  lastUpdatedAtString: 2021-07-19T17:51:05.309+02:00
+  initializedAtString: 2021-07-19T13:19:15.499+02:00
   currentGitRemote:
     name: origin
     url: https://github.com/dasNTI/LehrerSpiel.git

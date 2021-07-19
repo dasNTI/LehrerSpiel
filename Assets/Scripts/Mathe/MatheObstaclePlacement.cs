@@ -13,6 +13,7 @@ public class MatheObstaclePlacement : MonoBehaviour
     public float SpawnRate = 5;
 
     public bool Spawning = true;
+    public bool Pause = false;
 
     private int LastRow;
 
@@ -36,10 +37,12 @@ public class MatheObstaclePlacement : MonoBehaviour
     void spawn()
     {
         //Debug.Log("yeet");
-        int t = Random.Range(0, 2);
+        int t = Random.Range(0, 4);
         int row = 0;
 
         GameObject o = new GameObject("obs");
+
+        bool del = false;
 
         SpriteRenderer sr = o.AddComponent<SpriteRenderer>();
 
@@ -51,6 +54,7 @@ public class MatheObstaclePlacement : MonoBehaviour
                 row = Random.Range(0, 2) * 2;
                 while (row == LastRow) row = Random.Range(0, 2) * 2;
                 if (row == 0) sr.flipX = true;
+                o.transform.localScale = Vector3.one * 0.35f;
                 break;
 
             case 1:
@@ -58,6 +62,25 @@ public class MatheObstaclePlacement : MonoBehaviour
                 sr.sprite = bags[s];
                 row = Random.Range(0, 3);
                 while (row == LastRow) row = Random.Range(0, 3);
+                //o.transform.localScale = Vector3.one * 0.35f;
+                break;
+
+            case 2:
+                s = Random.Range(0, Stuff.Length);
+                sr.sprite = Stuff[s];
+                row = Random.Range(0, 3);
+                while (row == LastRow) row = Random.Range(0, 3);
+                break;
+
+            case 3:
+                Sprite[] b = new Sprite[bags.Length + Stuff.Length];
+                bags.CopyTo(b, 0);
+                Stuff.CopyTo(b, bags.Length);
+
+                s = Random.Range(0, b.Length);
+                sr.sprite = b[s];
+                row = Random.Range(0, 3);
+                if (row != 1) del = true;
                 break;
         }
 
@@ -68,11 +91,11 @@ public class MatheObstaclePlacement : MonoBehaviour
         mom.rows = rows;
         mom.row = row;
 
-        o.transform.localScale = Vector3.one * 0.35f;
-
         o.tag = "Obstacle";
 
         PolygonCollider2D pc = o.AddComponent<PolygonCollider2D>();
+
+        if (del) Destroy(o);
     }
 
     public IEnumerator routine()
@@ -83,7 +106,7 @@ public class MatheObstaclePlacement : MonoBehaviour
         {
             spawn();
             yield return new WaitForSecondsRealtime(Random.RandomRange(0.5f, SpawnRate + 1.0f));
-            //if (!Spawning) yield return new WaitWhile(() => !Spawning);
+            if (Pause) yield return new WaitWhile(() => Pause);
         }
     }
 }

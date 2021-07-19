@@ -24,6 +24,7 @@ public class MathePlayerMovement : MonoBehaviour
 
     private Moves moves;
     private MatheFloorMovement mfm;
+    private MatheObstaclePlacement mop;
     void Start()
     {
         bc = GetComponent<BoxCollider2D>();
@@ -32,6 +33,7 @@ public class MathePlayerMovement : MonoBehaviour
         moves = new Moves();
         lives = 3;
         mfm = GameObject.FindGameObjectWithTag("Ground").GetComponent<MatheFloorMovement>();
+        mop = GameObject.Find("Schoop").GetComponent<MatheObstaclePlacement>();
         InitSpeed = mfm.speed;
         StartCoroutine(walk());
     }
@@ -104,11 +106,13 @@ public class MathePlayerMovement : MonoBehaviour
     }
 
     IEnumerator crashed()
-    { 
+    {
+        mop.Pause = true;
         float v = GameObject.FindGameObjectWithTag("Ground").GetComponent<MatheFloorMovement>().speed;
         GameObject.FindGameObjectWithTag("Ground").GetComponent<MatheFloorMovement>().speed = 0;
         yield return new WaitForSecondsRealtime(1.5f);
         GameObject.FindGameObjectWithTag("Ground").GetComponent<MatheFloorMovement>().speed = v;
+        mop.Pause = false;
     }
 
     IEnumerator crashAni()
