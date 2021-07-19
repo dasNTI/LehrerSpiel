@@ -7,9 +7,12 @@ public class MatheObstaclePlacement : MonoBehaviour
     public int rows;
     public Sprite[] students;
     public Sprite[] bags;
+    public Sprite[] Stuff;
     public LayerMask lm;
 
     public float SpawnRate = 5;
+
+    public bool Spawning = true;
 
     private int LastRow;
 
@@ -72,14 +75,15 @@ public class MatheObstaclePlacement : MonoBehaviour
         PolygonCollider2D pc = o.AddComponent<PolygonCollider2D>();
     }
 
-    IEnumerator routine()
+    public IEnumerator routine()
     {
         yield return new WaitForSecondsRealtime(1);
         bool rep = true;
-        while (rep)
+        while (Spawning)
         {
             spawn();
             yield return new WaitForSecondsRealtime(Random.RandomRange(0.5f, SpawnRate + 1.0f));
+            //if (!Spawning) yield return new WaitWhile(() => !Spawning);
         }
     }
 }

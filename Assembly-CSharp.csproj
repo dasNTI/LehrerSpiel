@@ -67,6 +67,7 @@
     <Compile Include="Assets\Packages\SoftEffects\Scripts\CGHolder.cs" />
     <Compile Include="Assets\Scripts\main\PlayerMovement.cs" />
     <Compile Include="Assets\Packages\FinalVignette\Assets\Scripts\FinalVignette.cs" />
+    <Compile Include="Assets\Scripts\Credits\CreditsAnimationTiming.cs" />
     <Compile Include="Assets\Packages\SoftEffects\Scripts\SoftEffects.cs" />
     <Compile Include="Assets\Packages\SoftEffects\Scripts\Styles.cs" />
     <Compile Include="Assets\Scripts\Mathe\MathePlayerMovement.cs" />
@@ -80,12 +81,16 @@
     <Compile Include="Assets\Packages\SoftEffects\Scripts\GPUWorker.cs" />
     <Compile Include="Assets\Packages\SoftEffects\Scripts\PrintData.cs" />
     <Compile Include="Assets\Scripts\Mathe\MatheObstaclePlacement.cs" />
+    <Compile Include="Assets\Scripts\main\SoundSpindown.cs" />
     <Compile Include="Assets\Scripts\Mathe\MatheWayCounter.cs" />
+    <Compile Include="Assets\Scripts\main\DeathtextChoose.cs" />
     <Compile Include="Assets\Scripts\Sport\Tennis.cs" />
     <Compile Include="Assets\Scripts\main\Dialogue_Default.cs" />
     <Compile Include="Assets\Scripts\main\SchlösserEyeMovement.cs" />
     <Compile Include="Assets\Packages\SoftEffects\Scripts\ClassExtensions.cs" />
+    <Compile Include="Assets\MatheProgressMovement.cs" />
     <Compile Include="Assets\Scripts\main\VoiceLine.cs" />
+    <Compile Include="Assets\Scripts\Credits\CreditsTextGenerator.cs" />
     <Compile Include="Assets\Packages\FinalVignette\Assets\Scripts\FinalVignetteCommandBuffer.cs" />
     <Compile Include="Assets\Scripts\main\Transition0.cs" />
     <Compile Include="Assets\Packages\SoftEffects\Scripts\SoftEffectsFont.cs" />
@@ -101,6 +106,7 @@
     <None Include="Assets\Ideen.txt" />
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\Packages\FinalVignette\Assets\Shaders\FinalVignette.shader" />
+    <None Include="Assets\Texts\Deathtexts\Mathe.txt" />
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Texts\Cutscenes\Physik.txt" />
     <None Include="Assets\Packages\SoftEffects\Shaders\SoftEffectsCompute.compute" />
@@ -117,6 +123,8 @@
     <None Include="Assets\Packages\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Texts\Cutscenes\Start.txt" />
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Texts\Cutscenes\Mathe.txt" />
+    <None Include="Assets\Texts\Credits.txt" />
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\Packages\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />

@@ -10,6 +10,7 @@ public class MathePlayerMovement : MonoBehaviour
     public float row = 1;
     private float y = -3.2f;
     private bool changing = false;
+    private float InitSpeed;
 
     private bool crash = false;
     public AudioSource sound;
@@ -22,6 +23,7 @@ public class MathePlayerMovement : MonoBehaviour
     private bool walks = false;
 
     private Moves moves;
+    private MatheFloorMovement mfm;
     void Start()
     {
         bc = GetComponent<BoxCollider2D>();
@@ -29,6 +31,8 @@ public class MathePlayerMovement : MonoBehaviour
         row = 0;
         moves = new Moves();
         lives = 3;
+        mfm = GameObject.FindGameObjectWithTag("Ground").GetComponent<MatheFloorMovement>();
+        InitSpeed = mfm.speed;
         StartCoroutine(walk());
     }
 
@@ -60,6 +64,10 @@ public class MathePlayerMovement : MonoBehaviour
             {
                 GameObject.FindGameObjectWithTag("Ground").GetComponent<MatheFloorMovement>().dir = 0.1f;
                 GameObject.FindGameObjectWithTag("Ground").GetComponent<MatheFloorMovement>().speed = 0;
+                CrashOverlayAni1();
+                GameObject.Find("Schoop").GetComponent<MatheObstaclePlacement>().Spawning = false;
+                GameObject.Find("Deathtext").GetComponent<DeathtextChoose>().choose();
+                StartCoroutine(GameObject.Find("Music").GetComponent<SoundSpindown>().Spindown());
             }else
             {
                 StartCoroutine(crashed());
@@ -81,6 +89,7 @@ public class MathePlayerMovement : MonoBehaviour
             float c = 1 / steps;
             row += c * r;
             yield return new WaitForSeconds(dur / steps);
+            if (crash && lives == 3) i = (int) steps + 1;
             if (crash) yield return new WaitWhile(() => crash);
         }
         changing = false;
@@ -95,7 +104,7 @@ public class MathePlayerMovement : MonoBehaviour
     }
 
     IEnumerator crashed()
-    {
+    { 
         float v = GameObject.FindGameObjectWithTag("Ground").GetComponent<MatheFloorMovement>().speed;
         GameObject.FindGameObjectWithTag("Ground").GetComponent<MatheFloorMovement>().speed = 0;
         yield return new WaitForSecondsRealtime(1.5f);
@@ -116,7 +125,7 @@ public class MathePlayerMovement : MonoBehaviour
     IEnumerator walk()
     {
         int i = 0;
-        float dur = 0.4f;
+        float dur = 0.3f;
         while (true)
         {
             sr.sprite = sprites[i];
@@ -127,9 +136,32 @@ public class MathePlayerMovement : MonoBehaviour
         }
     }
 
+    public void CrashOverlayAni1()
+    {
+        GameObject.FindGameObjectWithTag("Overlay1").GetComponent<Animator>().SetBool("active", true);
+        GameObject.Find("Deathscreen").GetComponent<Animator>().SetBool("active", true);
+    }
+
+    public void CrashOverlayAni2()
+    {
+        GameObject.FindGameObjectWithTag("Overlay1").GetComponent<Animator>().SetBool("active", false);
+        GameObject.Find("Deathscreen").GetComponent<Animator>().SetBool("active", false);
+    }
+
     public void respawn()
     {
+        StopAllCoroutines();
+        crash = false;
         foreach (GameObject i in GameObject.FindGameObjectsWithTag("Obstacle")) Destroy(i);
         lives = 3;
+        GetComponent<MatheWayCounter>().Current = 0;
+        GameObject.Find("Schoop").GetComponent<MatheObstaclePlacement>().Spawning = true;
+        StartCoroutine(GameObject.Find("Schoop").GetComponent<MatheObstaclePlacement>().routine());
+        mfm.speed = InitSpeed;
+        GameObject.Find("Music").GetComponent<SoundSpindown>().Restart();
+        CrashOverlayAni2();
+        StartCoroutine(walk());
+        changing = false;
+        row = 1;
     }
 }   

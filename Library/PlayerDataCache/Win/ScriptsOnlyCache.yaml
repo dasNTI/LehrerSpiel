@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraMovement
+    - DeathtextChoose
     - Dialogue_Default
     - KidDistanceCheck
     - Maske
@@ -10,10 +11,12 @@ ScriptsOnlyBuild:
     - MatheLifeSprite
     - MatheObstaclePlacement
     - MathePlayerMovement
+    - MatheProgressMovement
     - MatheWayCounter
     - NoPart
     - PlayerMovement
     - "Schl\xF6sserEyeMovement"
+    - SoundSpindown
     - Tennis
     - Trampoline
     - Transition0
@@ -101,8 +104,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -233,11 +238,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6812}
     - Class: 114
-      Script: {instanceID: 7416}
+      Script: {instanceID: 7418}
     - Class: 114
-      Script: {instanceID: 7728}
+      Script: {instanceID: 7730}
     - Class: 114
-      Script: {instanceID: 7966}
+      Script: {instanceID: 7968}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -271,6 +276,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
     - Class: 65
@@ -296,6 +303,10 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1698}
     - Class: 114
+      Script: {instanceID: 2742}
+    - Class: 114
+      Script: {instanceID: 3186}
+    - Class: 114
       Script: {instanceID: 3256}
     - Class: 114
       Script: {instanceID: 3546}
@@ -312,11 +323,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5120}
     - Class: 114
+      Script: {instanceID: 5238}
+    - Class: 114
       Script: {instanceID: 5494}
     - Class: 114
       Script: {instanceID: 5880}
     - Class: 114
       Script: {instanceID: 5926}
+    - Class: 114
+      Script: {instanceID: 6074}
     - Class: 114
       Script: {instanceID: 6184}
     - Class: 114
@@ -324,11 +339,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6242}
     - Class: 114
+      Script: {instanceID: 6404}
+    - Class: 114
       Script: {instanceID: 6692}
     - Class: 114
-      Script: {instanceID: 7860}
+      Script: {instanceID: 7010}
     - Class: 114
-      Script: {instanceID: 7878}
+      Script: {instanceID: 7862}
+    - Class: 114
+      Script: {instanceID: 7880}
+    - Class: 114
+      Script: {instanceID: 32092}
+    - Class: 114
+      Script: {instanceID: 33094}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -447,11 +470,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6938}
     - Class: 114
-      Script: {instanceID: 7128}
+      Script: {instanceID: 7130}
     - Class: 114
-      Script: {instanceID: 7746}
+      Script: {instanceID: 7748}
     - Class: 114
-      Script: {instanceID: 7878}
+      Script: {instanceID: 7880}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -1255,7 +1278,7 @@ ScriptsOnlyBuild:
     className: LiftGammaGain
   - hash:
       serializedVersion: 2
-      Hash: 83aa2426e00f8772f6aae11fe1e0317b
+      Hash: 86633ee39189455875fad7a0769e26b8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MatheObstaclePlacement
@@ -1415,6 +1438,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MatheProgressMovement
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1595,6 +1624,30 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 047734a1ef307df6682766c377493c5e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DeathtextChoose
+  - hash:
+      serializedVersion: 2
+      Hash: 901b3a6ff8e74ed4b3e6bee88bad9cbc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SoundSpindown
+  - hash:
+      serializedVersion: 2
+      Hash: 2f93dc8cf6143996e2578a2fe5d60fef
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CreditsTextGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: 35912835f38e0fd0d2dac1aee55d8af0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CreditsAnimationTiming
   platform: 5
   scenePathNames:
   - Assets/Scenes/Levels.unity
