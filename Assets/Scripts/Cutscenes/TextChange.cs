@@ -48,6 +48,7 @@ public class TextChange : MonoBehaviour
         {
             yield return ShowLine(i);
             video.enabled = false;
+            if (Time.timeScale == 0) yield return new WaitWhile(() => Time.timeScale == 0);
         }
     }
 }

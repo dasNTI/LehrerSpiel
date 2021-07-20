@@ -54,12 +54,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Cutscenes\TextChange.cs" />
+    <Compile Include="Assets\Scripts\MainMenu\StartCredits.cs" />
     <Compile Include="Assets\Scripts\Sport\NoPart.cs" />
     <Compile Include="Assets\Scripts\changescene.cs" />
     <Compile Include="Assets\Scripts\Sport\KidDistanceCheck.cs" />
     <Compile Include="Assets\Scripts\Sport\TennisBallMovement.cs" />
     <Compile Include="Assets\Packages\SoftEffects\Scripts\CGHolder.cs" />
     <Compile Include="Assets\Scripts\main\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\main\Transition1.cs" />
     <Compile Include="Assets\Packages\FinalVignette\Assets\Scripts\FinalVignette.cs" />
     <Compile Include="Assets\Scripts\Credits\CreditsAnimationTiming.cs" />
     <Compile Include="Assets\Packages\SoftEffects\Scripts\SoftEffects.cs" />
@@ -89,8 +91,8 @@
     <Compile Include="Assets\Scripts\main\Transition0.cs" />
     <Compile Include="Assets\Packages\SoftEffects\Scripts\SoftEffectsFont.cs" />
     <Compile Include="Assets\Scripts\Mathe\MatheFloorMovement.cs" />
-    <Compile Include="Assets\Scripts\main\Transition1.cs" />
-    <Compile Include="Assets\Scripts\MainMenu\StartCredits.cs" />
+    <Compile Include="Assets\Scripts\main\Progress.cs" />
+    <Compile Include="Assets\Scripts\main\Pausable.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -123,6 +123,7 @@ public class Maske : MonoBehaviour
             tx.color = new UnityEngine.Color(255, 0, 0, tx.color.a + v2 / 20);
             tx1.color = new UnityEngine.Color(255, 0, 0, tx1.color.a + v2 / 20);
             yield return new WaitForSecondsRealtime(dur / 20);
+            if (Time.timeScale == 0) yield return new WaitWhile(() => Time.timeScale == 0);
         }
         OverlayFadeAni = null;
     }
@@ -135,6 +136,7 @@ public class Maske : MonoBehaviour
         {
             if (alerting) im.color = new UnityEngine.Color(255, 0, 0, im.color.a + 0.01f);
             yield return new WaitForSecondsRealtime(dur / 100);
+            if (Time.timeScale == 0) yield return new WaitWhile(() => Time.timeScale == 0);
         }
         im.color = new UnityEngine.Color(255, 0, 0, 0);
         if (alert >= 100)

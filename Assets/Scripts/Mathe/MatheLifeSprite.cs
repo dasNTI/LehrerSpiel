@@ -39,6 +39,7 @@ public class MatheLifeSprite : MonoBehaviour
         {
             im.enabled = !im.enabled;
             yield return new WaitForSecondsRealtime(0.25f);
+            if (Time.timeScale == 0) yield return new WaitWhile(() => Time.timeScale == 0);
         }
     }
 }

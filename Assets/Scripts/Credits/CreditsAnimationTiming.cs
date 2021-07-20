@@ -12,13 +12,20 @@ public class CreditsAnimationTiming : MonoBehaviour
     {
         ani = GetComponent<Animator>();
         StartCoroutine(routine());
+        //Progress.Levels.Save(new bool[] { true, true, true });
     }
 
     IEnumerator routine()
     {
+        bool[] l = Progress.Levels.Load();
+        bool t = l[0] && l[1] && l[2];
+        Debug.Log(t);
+
         yield return new WaitForSecondsRealtime(wait1);
-        ani.SetBool("active", true);
+        if (t) ani.SetBool("active", true);
         yield return new WaitForSecondsRealtime(wait2);
         ani.SetBool("active", false );
+        yield return new WaitForSecondsRealtime(2);
+        Application.Quit();
     }
 }

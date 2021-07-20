@@ -25,6 +25,7 @@ public class Transition0 : MonoBehaviour
         {
             im.sprite = sprites[i];
             yield return new WaitForSecondsRealtime(frametime);
+            if (Time.timeScale == 0) yield return new WaitWhile(() => Time.timeScale == 0);
         }
         im.enabled = false;
     }
@@ -37,6 +38,7 @@ public class Transition0 : MonoBehaviour
         {
             im.sprite = sprites[i];
             yield return new WaitForSecondsRealtime(frametime);
+            if (Time.timeScale == 0) yield return new WaitWhile(() => Time.timeScale == 0);
         }
     }
 }

@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 86999803}
   - component: {fileID: 86999802}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: 8Mi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -274,7 +274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c91221ca482577a40be2b0ee83aae877, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wait1: 96
+  wait1: 76
   wait2: 3
 --- !u!95 &86999803
 Animator:
@@ -309,7 +309,7 @@ GameObject:
   - component: {fileID: 570603819}
   - component: {fileID: 570603820}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Wiedersehen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -463,7 +463,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c91221ca482577a40be2b0ee83aae877, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wait1: 93
+  wait1: 73
   wait2: 6
 --- !u!1 &1163543331
 GameObject:
@@ -580,7 +580,7 @@ GameObject:
   - component: {fileID: 1322522153}
   - component: {fileID: 1322522152}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -602,7 +602,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -657.00006}
+  m_AnchoredPosition: {x: 0, y: -657}
   m_SizeDelta: {x: 0, y: 0.00012207031}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1322522152

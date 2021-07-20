@@ -93,6 +93,7 @@ public class MathePlayerMovement : MonoBehaviour
             yield return new WaitForSeconds(dur / steps);
             if (crash && lives == 3) i = (int) steps + 1;
             if (crash) yield return new WaitWhile(() => crash);
+            if (Time.timeScale == 0) yield return new WaitWhile(() => Time.timeScale == 0);
         }
         changing = false;
     }
@@ -111,6 +112,7 @@ public class MathePlayerMovement : MonoBehaviour
         float v = GameObject.FindGameObjectWithTag("Ground").GetComponent<MatheFloorMovement>().speed;
         GameObject.FindGameObjectWithTag("Ground").GetComponent<MatheFloorMovement>().speed = 0;
         yield return new WaitForSecondsRealtime(1.5f);
+        if (Time.timeScale == 0) yield return new WaitWhile(() => Time.timeScale == 0);
         GameObject.FindGameObjectWithTag("Ground").GetComponent<MatheFloorMovement>().speed = v;
         mop.Pause = false;
     }
@@ -122,6 +124,7 @@ public class MathePlayerMovement : MonoBehaviour
             sound1.Play();
             sr.enabled = !sr.enabled;
             yield return new WaitForSecondsRealtime(0.25f);
+            if (Time.timeScale == 0) yield return new WaitWhile(() => Time.timeScale == 0);
         }
         crash = false;
     }
@@ -137,6 +140,7 @@ public class MathePlayerMovement : MonoBehaviour
             walks = !walks;
             yield return new WaitForSecondsRealtime(dur);
             if (crash) yield return new WaitWhile(() => crash);
+            if (Time.timeScale == 0) yield return new WaitWhile(() => Time.timeScale == 0);
         }
     }
 

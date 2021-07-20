@@ -10,12 +10,6 @@ public class MatheCameraMovement : MonoBehaviour
         cam = GetComponent<Camera>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public IEnumerator shake()
     {
         float wait = 0.1f;
@@ -23,6 +17,7 @@ public class MatheCameraMovement : MonoBehaviour
         {
             transform.position = Vector3.right * ((i % 2 * 2) - 1) * 0.07f + Vector3.forward * -8;
             yield return new WaitForSecondsRealtime(wait);
+            if (Time.timeScale == 0) yield return new WaitWhile(() => Time.timeScale == 0);
         }
         transform.position = Vector3.forward * -8;
     }
