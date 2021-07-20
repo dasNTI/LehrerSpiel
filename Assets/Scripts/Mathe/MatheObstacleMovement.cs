@@ -11,19 +11,23 @@ public class MatheObstacleMovement : MonoBehaviour
     private MatheFloorMovement mfm;
     private PolygonCollider2D pc;
 
+    private float PlayerY;
+
     void Start()
     {
         mfm = GameObject.FindGameObjectWithTag("Ground").GetComponent<MatheFloorMovement>();
         transform.position = new Vector3((row * 2 + 1) * 10.6f / rows / 2 - 5.3f, 10, 1);
         pc = GetComponent<PolygonCollider2D>();
         checkIfPossible();
+        PlayerY = GameObject.FindGameObjectWithTag("Player").GetComponent<BoxCollider2D>().bounds.center.y - 1;
     }
 
-    // Update is called once per frame
     void Update()
     {
         transform.Translate(new Vector3(0, -mfm.dir, 0));
         if (transform.position.y < -8) Destroy(transform.gameObject);
+
+        //if (transform.position.y <= PlayerY) transform.position = new Vector3(transform.position.x, transform.position.y, -2);
     }
 
     void checkIfPossible()

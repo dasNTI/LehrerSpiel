@@ -10,10 +10,12 @@ public class Transition0 : MonoBehaviour
     private Image im;
     public AudioSource sound;
 
+    public bool PlayOnStart = true;
+
     void Start()
     {
         im = GetComponent<Image>();
-        StartCoroutine(transOut());
+        if (PlayOnStart) StartCoroutine(transOut());
     }
 
     public IEnumerator transOut()
@@ -24,11 +26,12 @@ public class Transition0 : MonoBehaviour
             im.sprite = sprites[i];
             yield return new WaitForSecondsRealtime(frametime);
         }
+        im.enabled = false;
     }
 
     public IEnumerator transIn()
     {
-        
+        im.enabled = true;      
         sound.Play();
         for (int i = sprites.Length; i > 0; i++)
         {

@@ -10,7 +10,12 @@ public class MatheObstaclePlacement : MonoBehaviour
     public Sprite[] Stuff;
     public LayerMask lm;
 
-    public float SpawnRate = 5;
+    private float SpawnRate = 5;
+    public float[] SpawnDifficulties;
+    private float prevSpawnRate;
+
+    private float FloorSpeed;
+    public float[] FloorSpeeds;
 
     public bool Spawning = true;
     public bool Pause = false;
@@ -19,6 +24,7 @@ public class MatheObstaclePlacement : MonoBehaviour
 
     private MathePlayerMovement mpm;
     private MatheFloorMovement mfm;
+    private MatheWayCounter mwc;
 
 
     void Start()
@@ -26,12 +32,32 @@ public class MatheObstaclePlacement : MonoBehaviour
         StartCoroutine(routine());
         mpm = GameObject.FindGameObjectWithTag("Player").GetComponent<MathePlayerMovement>();
         mfm = GameObject.FindGameObjectWithTag("Ground").GetComponent<MatheFloorMovement>();
+        mwc = GameObject.FindGameObjectWithTag("Player").GetComponent<MatheWayCounter>();
+        SpawnRate = SpawnDifficulties[0];
+        prevSpawnRate = SpawnRate;
+        FloorSpeed = FloorSpeeds[0];
+        mfm.speed = FloorSpeed;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Spawning && !Pause)
+        {
+            float w = mwc.Current / mwc.FinishLine * 3;
+            SpawnRate = SpawnDifficulties[(int)Mathf.Floor(w)];
+            if (SpawnRate != prevSpawnRate)
+            {
+                prevSpawnRate = SpawnRate;
+                AlertHarder();
+            }
+
+            if (FloorSpeed != FloorSpeeds[(int)Mathf.Floor(w)])
+            {
+                FloorSpeed = FloorSpeeds[(int)Mathf.Floor(w)];
+                mfm.speed = FloorSpeed;
+            }
+        }
     }
 
     void spawn()
@@ -108,5 +134,11 @@ public class MatheObstaclePlacement : MonoBehaviour
             yield return new WaitForSecondsRealtime(Random.RandomRange(0.5f, SpawnRate + 1.0f));
             if (Pause) yield return new WaitWhile(() => Pause);
         }
+    }
+
+    void AlertHarder()
+    {
+        GameObject.Find("Schneller").GetComponent<Animation>().Play();
+        GameObject.Find("SpeedUp").GetComponent<AudioSource>().Play();
     }
 }

@@ -35,7 +35,7 @@ public class MathePlayerMovement : MonoBehaviour
         mfm = GameObject.FindGameObjectWithTag("Ground").GetComponent<MatheFloorMovement>();
         mop = GameObject.Find("Schoop").GetComponent<MatheObstaclePlacement>();
         InitSpeed = mfm.speed;
-        StartCoroutine(walk());
+        StartCoroutine(walk()); 
     }
 
     // Update is called once per frame
