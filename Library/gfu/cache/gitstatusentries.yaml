@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-07-20T15:03:40.847+02:00
-  initializedAtString: 2021-07-20T13:44:45.663+02:00
+  lastUpdatedAtString: 2021-07-20T15:13:37.332+02:00
+  initializedAtString: 2021-07-20T15:05:57.325+02:00
   entries:
   - path: .vs\Herr Schloesser\v16\.suo
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\.vs\Herr Schloesser\v16\.suo
@@ -28,129 +28,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assembly-CSharp-Editor.csproj
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Assembly-CSharp-Editor.csproj
-    projectPath: Assembly-CSharp-Editor.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Images\FX\PauseScreen.png
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Assets\Images\FX\PauseScreen.png
-    projectPath: Assets\Images\FX\PauseScreen.png
+  - path: Assets\Images\Sport\Schlosser_deathscrenn_sport.png
+    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Assets\Images\Sport\Schlosser_deathscrenn_sport.png
+    projectPath: Assets\Images\Sport\Schlosser_deathscrenn_sport.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Images\FX\PauseScreen.png.meta
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Assets\Images\FX\PauseScreen.png.meta
-    projectPath: Assets\Images\FX\PauseScreen.png.meta
+  - path: Assets\Images\Sport\Schlosser_deathscrenn_sport.png.meta
+    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Assets\Images\Sport\Schlosser_deathscrenn_sport.png.meta
+    projectPath: Assets\Images\Sport\Schlosser_deathscrenn_sport.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\Music\Credits.flp
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Assets\Music\Credits.flp
-    projectPath: Assets\Music\Credits.flp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Music\Credits.mp3
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Assets\Music\Credits.mp3
-    projectPath: Assets\Music\Credits.mp3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scenes\Credits.unity
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Assets\Scenes\Credits.unity
-    projectPath: Assets\Scenes\Credits.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets\Scenes\MainMenu.unity
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Assets\Scenes\MainMenu.unity
     projectPath: Assets\Scenes\MainMenu.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Credits\CreditsAnimationTiming.cs
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Assets\Scripts\Credits\CreditsAnimationTiming.cs
-    projectPath: Assets\Scripts\Credits\CreditsAnimationTiming.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Credits\CreditsTextGenerator.cs
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Assets\Scripts\Credits\CreditsTextGenerator.cs
-    projectPath: Assets\Scripts\Credits\CreditsTextGenerator.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Cutscenes\TextChange.cs
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Assets\Scripts\Cutscenes\TextChange.cs
-    projectPath: Assets\Scripts\Cutscenes\TextChange.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\main\Pausable.cs
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Assets\Scripts\main\Pausable.cs
-    projectPath: Assets\Scripts\main\Pausable.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\main\Pausable.cs.meta
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Assets\Scripts\main\Pausable.cs.meta
-    projectPath: Assets\Scripts\main\Pausable.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\main\Progress.cs
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Assets\Scripts\main\Progress.cs
-    projectPath: Assets\Scripts\main\Progress.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\main\Progress.cs.meta
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Assets\Scripts\main\Progress.cs.meta
-    projectPath: Assets\Scripts\main\Progress.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\main\Transition0.cs
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Assets\Scripts\main\Transition0.cs
-    projectPath: Assets\Scripts\main\Transition0.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\main\Transition1.cs
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Assets\Scripts\main\Transition1.cs
-    projectPath: Assets\Scripts\main\Transition1.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Mathe\MatheCameraMovement.cs
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Assets\Scripts\Mathe\MatheCameraMovement.cs
-    projectPath: Assets\Scripts\Mathe\MatheCameraMovement.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Mathe\MatheLifeSprite.cs
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Assets\Scripts\Mathe\MatheLifeSprite.cs
-    projectPath: Assets\Scripts\Mathe\MatheLifeSprite.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Mathe\MathePlayerMovement.cs
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Assets\Scripts\Mathe\MathePlayerMovement.cs
-    projectPath: Assets\Scripts\Mathe\MathePlayerMovement.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Scripts\Sport\Maske.cs
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Assets\Scripts\Sport\Maske.cs
-    projectPath: Assets\Scripts\Sport\Maske.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -160,63 +52,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: "Builds\\HerrSchl\xF6sser_Data\\globalgamemanagers.assets"
-    fullPath: "E:\\nils\\programmieren\\fertig\\C#\\Unity\\Herr Schloesser\\Builds\\HerrSchl\xF6sser_Data\\globalgamemanagers.assets"
-    projectPath: "Builds\\HerrSchl\xF6sser_Data\\globalgamemanagers.assets"
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: "Builds\\HerrSchl\xF6sser_Data\\level0"
     fullPath: "E:\\nils\\programmieren\\fertig\\C#\\Unity\\Herr Schloesser\\Builds\\HerrSchl\xF6sser_Data\\level0"
     projectPath: "Builds\\HerrSchl\xF6sser_Data\\level0"
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: "Builds\\HerrSchl\xF6sser_Data\\level1"
-    fullPath: "E:\\nils\\programmieren\\fertig\\C#\\Unity\\Herr Schloesser\\Builds\\HerrSchl\xF6sser_Data\\level1"
-    projectPath: "Builds\\HerrSchl\xF6sser_Data\\level1"
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: "Builds\\HerrSchl\xF6sser_Data\\level2"
-    fullPath: "E:\\nils\\programmieren\\fertig\\C#\\Unity\\Herr Schloesser\\Builds\\HerrSchl\xF6sser_Data\\level2"
-    projectPath: "Builds\\HerrSchl\xF6sser_Data\\level2"
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: "Builds\\HerrSchl\xF6sser_Data\\level3"
-    fullPath: "E:\\nils\\programmieren\\fertig\\C#\\Unity\\Herr Schloesser\\Builds\\HerrSchl\xF6sser_Data\\level3"
-    projectPath: "Builds\\HerrSchl\xF6sser_Data\\level3"
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: "Builds\\HerrSchl\xF6sser_Data\\level4"
-    fullPath: "E:\\nils\\programmieren\\fertig\\C#\\Unity\\Herr Schloesser\\Builds\\HerrSchl\xF6sser_Data\\level4"
-    projectPath: "Builds\\HerrSchl\xF6sser_Data\\level4"
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: "Builds\\HerrSchl\xF6sser_Data\\level5"
-    fullPath: "E:\\nils\\programmieren\\fertig\\C#\\Unity\\Herr Schloesser\\Builds\\HerrSchl\xF6sser_Data\\level5"
-    projectPath: "Builds\\HerrSchl\xF6sser_Data\\level5"
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: "Builds\\HerrSchl\xF6sser_Data\\level6"
-    fullPath: "E:\\nils\\programmieren\\fertig\\C#\\Unity\\Herr Schloesser\\Builds\\HerrSchl\xF6sser_Data\\level6"
-    projectPath: "Builds\\HerrSchl\xF6sser_Data\\level6"
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: "Builds\\HerrSchl\xF6sser_Data\\Managed\\Assembly-CSharp.dll"
-    fullPath: "E:\\nils\\programmieren\\fertig\\C#\\Unity\\Herr Schloesser\\Builds\\HerrSchl\xF6sser_Data\\Managed\\Assembly-CSharp.dll"
-    projectPath: "Builds\\HerrSchl\xF6sser_Data\\Managed\\Assembly-CSharp.dll"
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: "Builds\\HerrSchl\xF6sser_Data\\resources.assets"
-    fullPath: "E:\\nils\\programmieren\\fertig\\C#\\Unity\\Herr Schloesser\\Builds\\HerrSchl\xF6sser_Data\\resources.assets"
-    projectPath: "Builds\\HerrSchl\xF6sser_Data\\resources.assets"
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -226,123 +64,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: "Builds\\HerrSchl\xF6sser_Data\\sharedassets1.assets"
-    fullPath: "E:\\nils\\programmieren\\fertig\\C#\\Unity\\Herr Schloesser\\Builds\\HerrSchl\xF6sser_Data\\sharedassets1.assets"
-    projectPath: "Builds\\HerrSchl\xF6sser_Data\\sharedassets1.assets"
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: "Builds\\HerrSchl\xF6sser_Data\\sharedassets2.assets"
-    fullPath: "E:\\nils\\programmieren\\fertig\\C#\\Unity\\Herr Schloesser\\Builds\\HerrSchl\xF6sser_Data\\sharedassets2.assets"
-    projectPath: "Builds\\HerrSchl\xF6sser_Data\\sharedassets2.assets"
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: "Builds\\HerrSchl\xF6sser_Data\\sharedassets3.assets"
-    fullPath: "E:\\nils\\programmieren\\fertig\\C#\\Unity\\Herr Schloesser\\Builds\\HerrSchl\xF6sser_Data\\sharedassets3.assets"
-    projectPath: "Builds\\HerrSchl\xF6sser_Data\\sharedassets3.assets"
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: "Builds\\HerrSchl\xF6sser_Data\\sharedassets4.assets"
-    fullPath: "E:\\nils\\programmieren\\fertig\\C#\\Unity\\Herr Schloesser\\Builds\\HerrSchl\xF6sser_Data\\sharedassets4.assets"
-    projectPath: "Builds\\HerrSchl\xF6sser_Data\\sharedassets4.assets"
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: "Builds\\HerrSchl\xF6sser_Data\\sharedassets4.resource"
-    fullPath: "E:\\nils\\programmieren\\fertig\\C#\\Unity\\Herr Schloesser\\Builds\\HerrSchl\xF6sser_Data\\sharedassets4.resource"
-    projectPath: "Builds\\HerrSchl\xF6sser_Data\\sharedassets4.resource"
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: "Builds\\HerrSchl\xF6sser_Data\\sharedassets5.assets"
-    fullPath: "E:\\nils\\programmieren\\fertig\\C#\\Unity\\Herr Schloesser\\Builds\\HerrSchl\xF6sser_Data\\sharedassets5.assets"
-    projectPath: "Builds\\HerrSchl\xF6sser_Data\\sharedassets5.assets"
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: "Builds\\HerrSchl\xF6sser_Data\\sharedassets6.assets"
-    fullPath: "E:\\nils\\programmieren\\fertig\\C#\\Unity\\Herr Schloesser\\Builds\\HerrSchl\xF6sser_Data\\sharedassets6.assets"
-    projectPath: "Builds\\HerrSchl\xF6sser_Data\\sharedassets6.assets"
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\ArtifactDB
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\ArtifactDB
     projectPath: Library\ArtifactDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Artifacts\00\00ef37e60b5e9a6d8d65608f54913343
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\00\00ef37e60b5e9a6d8d65608f54913343
-    projectPath: Library\Artifacts\00\00ef37e60b5e9a6d8d65608f54913343
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\01\010673759b35e6e34e6fb455b75fb574
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\01\010673759b35e6e34e6fb455b75fb574
-    projectPath: Library\Artifacts\01\010673759b35e6e34e6fb455b75fb574
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\02\020fffa9d9ea3ef5e902f51e42cd6d4f
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\02\020fffa9d9ea3ef5e902f51e42cd6d4f
-    projectPath: Library\Artifacts\02\020fffa9d9ea3ef5e902f51e42cd6d4f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\02\02a35c6d8baaaec8d81aa82df51fdf3b
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\02\02a35c6d8baaaec8d81aa82df51fdf3b
-    projectPath: Library\Artifacts\02\02a35c6d8baaaec8d81aa82df51fdf3b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\05\0562b6b1c9b501784eae21d78269a22c
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\05\0562b6b1c9b501784eae21d78269a22c
-    projectPath: Library\Artifacts\05\0562b6b1c9b501784eae21d78269a22c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\06\06b5f989e7ebeeb612538039c6e5bfea
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\06\06b5f989e7ebeeb612538039c6e5bfea
-    projectPath: Library\Artifacts\06\06b5f989e7ebeeb612538039c6e5bfea
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\07\07b451d3fe289f508700d9727031619f
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\07\07b451d3fe289f508700d9727031619f
-    projectPath: Library\Artifacts\07\07b451d3fe289f508700d9727031619f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Library\Artifacts\0b\0b77f1dca3ca78de19fa0695d8b9fb23
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\0b\0b77f1dca3ca78de19fa0695d8b9fb23
     projectPath: Library\Artifacts\0b\0b77f1dca3ca78de19fa0695d8b9fb23
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\0c\0c87be73b3e92a2c3e072f96242742f6
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\0c\0c87be73b3e92a2c3e072f96242742f6
-    projectPath: Library\Artifacts\0c\0c87be73b3e92a2c3e072f96242742f6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\0e\0ee00e00ece450c55070eba9c841b962
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\0e\0ee00e00ece450c55070eba9c841b962
-    projectPath: Library\Artifacts\0e\0ee00e00ece450c55070eba9c841b962
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\10\102a0e364e7d991cc77c98dc28a4a881
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\10\102a0e364e7d991cc77c98dc28a4a881
-    projectPath: Library\Artifacts\10\102a0e364e7d991cc77c98dc28a4a881
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\11\116365fe67a88bb6b271c381a314a398
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\11\116365fe67a88bb6b271c381a314a398
-    projectPath: Library\Artifacts\11\116365fe67a88bb6b271c381a314a398
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -350,71 +80,11 @@ MonoBehaviour:
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\15\15b477a300384faafb8f8180860cebb9
     projectPath: Library\Artifacts\15\15b477a300384faafb8f8180860cebb9
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\16\167dce8c534ee815dfb568b50bec42d8
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\16\167dce8c534ee815dfb568b50bec42d8
-    projectPath: Library\Artifacts\16\167dce8c534ee815dfb568b50bec42d8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\17\178bbfff6a8e3b8501b4b01e142e75b1
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\17\178bbfff6a8e3b8501b4b01e142e75b1
-    projectPath: Library\Artifacts\17\178bbfff6a8e3b8501b4b01e142e75b1
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\17\17d9f5883a713177249eef2c6cdadce5
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\17\17d9f5883a713177249eef2c6cdadce5
-    projectPath: Library\Artifacts\17\17d9f5883a713177249eef2c6cdadce5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\18\183b75afa3036e9ec2975b163dfc6686
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\18\183b75afa3036e9ec2975b163dfc6686
-    projectPath: Library\Artifacts\18\183b75afa3036e9ec2975b163dfc6686
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\1d\1d8460b56e227a1bb6eeaf77c9f93828
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\1d\1d8460b56e227a1bb6eeaf77c9f93828
-    projectPath: Library\Artifacts\1d\1d8460b56e227a1bb6eeaf77c9f93828
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\1e\1e42fb0b762310176dc7be35cb2a6c34
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\1e\1e42fb0b762310176dc7be35cb2a6c34
-    projectPath: Library\Artifacts\1e\1e42fb0b762310176dc7be35cb2a6c34
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\21\21d75a52add2be8d885d2be330405760
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\21\21d75a52add2be8d885d2be330405760
-    projectPath: Library\Artifacts\21\21d75a52add2be8d885d2be330405760
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\25\25a3a43d933f7ff3965aff75b08dd65a
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\25\25a3a43d933f7ff3965aff75b08dd65a
-    projectPath: Library\Artifacts\25\25a3a43d933f7ff3965aff75b08dd65a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\26\2697e1328102020a858f8a338f5e42a5
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\26\2697e1328102020a858f8a338f5e42a5
-    projectPath: Library\Artifacts\26\2697e1328102020a858f8a338f5e42a5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\29\296a419770646100009a38815d9e0437
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\29\296a419770646100009a38815d9e0437
-    projectPath: Library\Artifacts\29\296a419770646100009a38815d9e0437
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\2d\2d28413ade65ecf8a70c39f31f895790
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\2d\2d28413ade65ecf8a70c39f31f895790
-    projectPath: Library\Artifacts\2d\2d28413ade65ecf8a70c39f31f895790
+  - path: Library\Artifacts\16\160560fcd07a323b7df6ab9244d1ced9
+    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\16\160560fcd07a323b7df6ab9244d1ced9
+    projectPath: Library\Artifacts\16\160560fcd07a323b7df6ab9244d1ced9
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -422,239 +92,65 @@ MonoBehaviour:
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\2e\2e90131f629679c7451542550f8e5c7b
     projectPath: Library\Artifacts\2e\2e90131f629679c7451542550f8e5c7b
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\2e\2ef32f4416ed9e9fc4b0c4db6b260f93
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\2e\2ef32f4416ed9e9fc4b0c4db6b260f93
-    projectPath: Library\Artifacts\2e\2ef32f4416ed9e9fc4b0c4db6b260f93
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\31\317e8e9e6e579ad6cc147c77c8342919
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\31\317e8e9e6e579ad6cc147c77c8342919
-    projectPath: Library\Artifacts\31\317e8e9e6e579ad6cc147c77c8342919
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\35\3523ff019dba276cd4cb11b464dc54c0
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\35\3523ff019dba276cd4cb11b464dc54c0
-    projectPath: Library\Artifacts\35\3523ff019dba276cd4cb11b464dc54c0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\37\371e959ec71e6e79bc84cc72c19458e7
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\37\371e959ec71e6e79bc84cc72c19458e7
-    projectPath: Library\Artifacts\37\371e959ec71e6e79bc84cc72c19458e7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\3a\3a02bc3b605cae486869b10ac9db37ff
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\3a\3a02bc3b605cae486869b10ac9db37ff
-    projectPath: Library\Artifacts\3a\3a02bc3b605cae486869b10ac9db37ff
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\3a\3afeb848e0dde89213d4425e959b6b69
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\3a\3afeb848e0dde89213d4425e959b6b69
     projectPath: Library\Artifacts\3a\3afeb848e0dde89213d4425e959b6b69
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\3e\3e9c8ea614e6aa1659f6690916a306d1
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\3e\3e9c8ea614e6aa1659f6690916a306d1
-    projectPath: Library\Artifacts\3e\3e9c8ea614e6aa1659f6690916a306d1
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\55\554bd1476f16121c3066e1f293be7ec0
+    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\55\554bd1476f16121c3066e1f293be7ec0
+    projectPath: Library\Artifacts\55\554bd1476f16121c3066e1f293be7ec0
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\43\433fe64be8cdda634ea968af7fd753f3
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\43\433fe64be8cdda634ea968af7fd753f3
-    projectPath: Library\Artifacts\43\433fe64be8cdda634ea968af7fd753f3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\44\44966c03b5b212a79d94958cea6bb0c7
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\44\44966c03b5b212a79d94958cea6bb0c7
-    projectPath: Library\Artifacts\44\44966c03b5b212a79d94958cea6bb0c7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\44\44fdf4fa2de1c4a596ec2eb13b79f35c
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\44\44fdf4fa2de1c4a596ec2eb13b79f35c
-    projectPath: Library\Artifacts\44\44fdf4fa2de1c4a596ec2eb13b79f35c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\48\488559498cdcf4b9ab9f88966bea4e70
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\48\488559498cdcf4b9ab9f88966bea4e70
-    projectPath: Library\Artifacts\48\488559498cdcf4b9ab9f88966bea4e70
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\49\4961f73a53ed9b05bc8bdfce0afe0e4b
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\49\4961f73a53ed9b05bc8bdfce0afe0e4b
-    projectPath: Library\Artifacts\49\4961f73a53ed9b05bc8bdfce0afe0e4b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\49\49b666f85b23778d1334163fefd7a538
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\49\49b666f85b23778d1334163fefd7a538
-    projectPath: Library\Artifacts\49\49b666f85b23778d1334163fefd7a538
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\4d\4d9d24ce3d378530a983d5bbaeac3306
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\4d\4d9d24ce3d378530a983d5bbaeac3306
-    projectPath: Library\Artifacts\4d\4d9d24ce3d378530a983d5bbaeac3306
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\4d\4de47f1263e7242883ab8ca27f8f1ae5
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\4d\4de47f1263e7242883ab8ca27f8f1ae5
-    projectPath: Library\Artifacts\4d\4de47f1263e7242883ab8ca27f8f1ae5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\56\560b2969c4ece84abed81bf735761c27
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\56\560b2969c4ece84abed81bf735761c27
-    projectPath: Library\Artifacts\56\560b2969c4ece84abed81bf735761c27
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\56\56c065513ccd5f44aeda515fdd473075
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\56\56c065513ccd5f44aeda515fdd473075
-    projectPath: Library\Artifacts\56\56c065513ccd5f44aeda515fdd473075
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\59\59703421918191c8592c5ae0186d5d86
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\59\59703421918191c8592c5ae0186d5d86
     projectPath: Library\Artifacts\59\59703421918191c8592c5ae0186d5d86
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\5a\5acef250b7d8aba7fcfd187c18368496
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\5a\5acef250b7d8aba7fcfd187c18368496
     projectPath: Library\Artifacts\5a\5acef250b7d8aba7fcfd187c18368496
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\60\60c0c5a23a69c239256e3d957044b147
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\60\60c0c5a23a69c239256e3d957044b147
-    projectPath: Library\Artifacts\60\60c0c5a23a69c239256e3d957044b147
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\60\6042df05c7b7faf3dbc6037990e597ea
+    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\60\6042df05c7b7faf3dbc6037990e597ea
+    projectPath: Library\Artifacts\60\6042df05c7b7faf3dbc6037990e597ea
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\60\60f8b553e99dc94f89978425d5fe7db6
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\60\60f8b553e99dc94f89978425d5fe7db6
-    projectPath: Library\Artifacts\60\60f8b553e99dc94f89978425d5fe7db6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\61\6135d6a3c7cb862930cb8d14dedca994
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\61\6135d6a3c7cb862930cb8d14dedca994
-    projectPath: Library\Artifacts\61\6135d6a3c7cb862930cb8d14dedca994
+  - path: Library\Artifacts\61\61012023dc9df1b8a5c3e3725d65f16d
+    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\61\61012023dc9df1b8a5c3e3725d65f16d
+    projectPath: Library\Artifacts\61\61012023dc9df1b8a5c3e3725d65f16d
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\6c\6c88b24751ba442d49d84e1b2ec37361
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\6c\6c88b24751ba442d49d84e1b2ec37361
-    projectPath: Library\Artifacts\6c\6c88b24751ba442d49d84e1b2ec37361
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\6c\6cba2cbff3ce8d486ac9b093e044fc03
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\6c\6cba2cbff3ce8d486ac9b093e044fc03
-    projectPath: Library\Artifacts\6c\6cba2cbff3ce8d486ac9b093e044fc03
+  - path: Library\Artifacts\63\6313867fbc0cbc83d5fa651d1c25db47
+    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\63\6313867fbc0cbc83d5fa651d1c25db47
+    projectPath: Library\Artifacts\63\6313867fbc0cbc83d5fa651d1c25db47
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\6d\6d870f31669d22cee7f1fb31d3a02434
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\6d\6d870f31669d22cee7f1fb31d3a02434
-    projectPath: Library\Artifacts\6d\6d870f31669d22cee7f1fb31d3a02434
+  - path: Library\Artifacts\68\6803baa9534b2e51a780ba5432b67d43
+    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\68\6803baa9534b2e51a780ba5432b67d43
+    projectPath: Library\Artifacts\68\6803baa9534b2e51a780ba5432b67d43
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\6e\6e0bfa40308f7d76c3090c267b1c042b
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\6e\6e0bfa40308f7d76c3090c267b1c042b
-    projectPath: Library\Artifacts\6e\6e0bfa40308f7d76c3090c267b1c042b
+  - path: Library\Artifacts\6e\6e8b08f01e2003bf7ede66341ecae366
+    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\6e\6e8b08f01e2003bf7ede66341ecae366
+    projectPath: Library\Artifacts\6e\6e8b08f01e2003bf7ede66341ecae366
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\6e\6e91fff4244f52170d35e816a29ca3be
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\6e\6e91fff4244f52170d35e816a29ca3be
-    projectPath: Library\Artifacts\6e\6e91fff4244f52170d35e816a29ca3be
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\71\71339504de8bc77f4d5bea5b9bb351e8
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\71\71339504de8bc77f4d5bea5b9bb351e8
-    projectPath: Library\Artifacts\71\71339504de8bc77f4d5bea5b9bb351e8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\73\736e41319bc8f91fec4e8fb6e9b45abb
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\73\736e41319bc8f91fec4e8fb6e9b45abb
-    projectPath: Library\Artifacts\73\736e41319bc8f91fec4e8fb6e9b45abb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\73\73a4681876bf510f4722df42b1fa2755
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\73\73a4681876bf510f4722df42b1fa2755
-    projectPath: Library\Artifacts\73\73a4681876bf510f4722df42b1fa2755
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\74\741e794e713c9368f901ba568543c566
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\74\741e794e713c9368f901ba568543c566
-    projectPath: Library\Artifacts\74\741e794e713c9368f901ba568543c566
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\79\79ce33b2094c9b194d51ca84c37a7d7f
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\79\79ce33b2094c9b194d51ca84c37a7d7f
-    projectPath: Library\Artifacts\79\79ce33b2094c9b194d51ca84c37a7d7f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\7a\7a788ecdb8fcce9c49f97f1be294084a
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\7a\7a788ecdb8fcce9c49f97f1be294084a
-    projectPath: Library\Artifacts\7a\7a788ecdb8fcce9c49f97f1be294084a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\7a\7ab5db08ef27a7f4da414a310f6ea465
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\7a\7ab5db08ef27a7f4da414a310f6ea465
-    projectPath: Library\Artifacts\7a\7ab5db08ef27a7f4da414a310f6ea465
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\7a\7aee0cd45e9697b66911bcf0f933c405
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\7a\7aee0cd45e9697b66911bcf0f933c405
-    projectPath: Library\Artifacts\7a\7aee0cd45e9697b66911bcf0f933c405
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\7b\7b1448d05fb36b4a4ff406b4ac50d714
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\7b\7b1448d05fb36b4a4ff406b4ac50d714
-    projectPath: Library\Artifacts\7b\7b1448d05fb36b4a4ff406b4ac50d714
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\7b\7b71ef9ac6670d009ce6b2fb9d92ba8a
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\7b\7b71ef9ac6670d009ce6b2fb9d92ba8a
-    projectPath: Library\Artifacts\7b\7b71ef9ac6670d009ce6b2fb9d92ba8a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\82\8266d944c4366529045e9db7a942aae6
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\82\8266d944c4366529045e9db7a942aae6
-    projectPath: Library\Artifacts\82\8266d944c4366529045e9db7a942aae6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\86\865e36d712390b9084d15b71a6b4786b
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\86\865e36d712390b9084d15b71a6b4786b
-    projectPath: Library\Artifacts\86\865e36d712390b9084d15b71a6b4786b
+  - path: Library\Artifacts\76\7692865cbce7015360c4609c03f52707
+    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\76\7692865cbce7015360c4609c03f52707
+    projectPath: Library\Artifacts\76\7692865cbce7015360c4609c03f52707
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -662,23 +158,11 @@ MonoBehaviour:
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\87\872cbcefe0f9063adc39547be18f5bd7
     projectPath: Library\Artifacts\87\872cbcefe0f9063adc39547be18f5bd7
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\8c\8c29302d77620963618b2afa529a7144
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\8c\8c29302d77620963618b2afa529a7144
-    projectPath: Library\Artifacts\8c\8c29302d77620963618b2afa529a7144
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\90\9084a1ae64531b2cf9ed9861602acc1d
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\90\9084a1ae64531b2cf9ed9861602acc1d
-    projectPath: Library\Artifacts\90\9084a1ae64531b2cf9ed9861602acc1d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\94\9441697b13ba3eba2874ea67db6605b7
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\94\9441697b13ba3eba2874ea67db6605b7
-    projectPath: Library\Artifacts\94\9441697b13ba3eba2874ea67db6605b7
+  - path: Library\Artifacts\8b\8bc1e1ffa93b6bf2f8ef8d8f2d7a500b
+    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\8b\8bc1e1ffa93b6bf2f8ef8d8f2d7a500b
+    projectPath: Library\Artifacts\8b\8bc1e1ffa93b6bf2f8ef8d8f2d7a500b
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -686,17 +170,11 @@ MonoBehaviour:
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\97\970effa2ce7beea3ac029ba0e0d4b8e7
     projectPath: Library\Artifacts\97\970effa2ce7beea3ac029ba0e0d4b8e7
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\99\99274c215ed0fabb47b13b3a70f5f197
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\99\99274c215ed0fabb47b13b3a70f5f197
-    projectPath: Library\Artifacts\99\99274c215ed0fabb47b13b3a70f5f197
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\99\99ca35ac31b9310c3fada65e74d7f44f
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\99\99ca35ac31b9310c3fada65e74d7f44f
-    projectPath: Library\Artifacts\99\99ca35ac31b9310c3fada65e74d7f44f
+  - path: Library\Artifacts\99\990faecc3fa2a8a8cc9e3c603017d774
+    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\99\990faecc3fa2a8a8cc9e3c603017d774
+    projectPath: Library\Artifacts\99\990faecc3fa2a8a8cc9e3c603017d774
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -704,107 +182,35 @@ MonoBehaviour:
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\9a\9a4c6ac0d9d892c75c6c95996af829ca
     projectPath: Library\Artifacts\9a\9a4c6ac0d9d892c75c6c95996af829ca
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\9c\9c9404cdfa2c18c340379d531228ce65
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\9c\9c9404cdfa2c18c340379d531228ce65
     projectPath: Library\Artifacts\9c\9c9404cdfa2c18c340379d531228ce65
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\a1\a1728e59ebbd02b5e304868d7b1d0124
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\a1\a1728e59ebbd02b5e304868d7b1d0124
     projectPath: Library\Artifacts\a1\a1728e59ebbd02b5e304868d7b1d0124
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\a3\a3d4905074a46675522bb30fc55c5a40
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\a3\a3d4905074a46675522bb30fc55c5a40
-    projectPath: Library\Artifacts\a3\a3d4905074a46675522bb30fc55c5a40
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\a5\a5742d28478f5071f58a879ea7a6b686
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\a5\a5742d28478f5071f58a879ea7a6b686
     projectPath: Library\Artifacts\a5\a5742d28478f5071f58a879ea7a6b686
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\a6\a601b82510a8042da82cb3966539d460
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\a6\a601b82510a8042da82cb3966539d460
-    projectPath: Library\Artifacts\a6\a601b82510a8042da82cb3966539d460
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\a7\a721b87a18ec62185688ab123ba65890
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\a7\a721b87a18ec62185688ab123ba65890
-    projectPath: Library\Artifacts\a7\a721b87a18ec62185688ab123ba65890
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\a8\a86be559d7964e0f4fccbc07b43208db
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\a8\a86be559d7964e0f4fccbc07b43208db
-    projectPath: Library\Artifacts\a8\a86be559d7964e0f4fccbc07b43208db
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\a9\a900b6fe52da53bdcda6ece5950b8ef8
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\a9\a900b6fe52da53bdcda6ece5950b8ef8
     projectPath: Library\Artifacts\a9\a900b6fe52da53bdcda6ece5950b8ef8
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ab\ab5dfcba47bfec4aca4cc30dfe533c0a
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\ab\ab5dfcba47bfec4aca4cc30dfe533c0a
-    projectPath: Library\Artifacts\ab\ab5dfcba47bfec4aca4cc30dfe533c0a
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\ae\ae577292048947e621d3f280e07b5b40
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\ae\ae577292048947e621d3f280e07b5b40
-    projectPath: Library\Artifacts\ae\ae577292048947e621d3f280e07b5b40
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\af\af63c18c88217af76e715cc35af1baa8
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\af\af63c18c88217af76e715cc35af1baa8
-    projectPath: Library\Artifacts\af\af63c18c88217af76e715cc35af1baa8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\af\af731d97f76714238e251ceb39f5a896
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\af\af731d97f76714238e251ceb39f5a896
-    projectPath: Library\Artifacts\af\af731d97f76714238e251ceb39f5a896
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\b0\b086af567ddb8a1ecdca41248b385b25
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\b0\b086af567ddb8a1ecdca41248b385b25
-    projectPath: Library\Artifacts\b0\b086af567ddb8a1ecdca41248b385b25
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\b8\b81a0e85b302eca22838fee79d620ad9
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\b8\b81a0e85b302eca22838fee79d620ad9
-    projectPath: Library\Artifacts\b8\b81a0e85b302eca22838fee79d620ad9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\b8\b88c14561d9e4cc868728f59614b0fc4
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\b8\b88c14561d9e4cc868728f59614b0fc4
-    projectPath: Library\Artifacts\b8\b88c14561d9e4cc868728f59614b0fc4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\b9\b9b50ed507741035bc5fad89b6135325
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\b9\b9b50ed507741035bc5fad89b6135325
-    projectPath: Library\Artifacts\b9\b9b50ed507741035bc5fad89b6135325
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\bb\bbebaec7c90ff9872a811081ee9eb2e2
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\bb\bbebaec7c90ff9872a811081ee9eb2e2
-    projectPath: Library\Artifacts\bb\bbebaec7c90ff9872a811081ee9eb2e2
+  - path: Library\Artifacts\ac\ac76283ac07014bc3da52fb866883f88
+    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\ac\ac76283ac07014bc3da52fb866883f88
+    projectPath: Library\Artifacts\ac\ac76283ac07014bc3da52fb866883f88
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -812,41 +218,11 @@ MonoBehaviour:
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\c0\c00a7e8a719ca19fc3b82daff44aba3d
     projectPath: Library\Artifacts\c0\c00a7e8a719ca19fc3b82daff44aba3d
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\c1\c1a689c6210d65a13a49b182ae88e972
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\c1\c1a689c6210d65a13a49b182ae88e972
-    projectPath: Library\Artifacts\c1\c1a689c6210d65a13a49b182ae88e972
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\c1\c1b45a5d56b8a26b2e8c0911c8920371
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\c1\c1b45a5d56b8a26b2e8c0911c8920371
-    projectPath: Library\Artifacts\c1\c1b45a5d56b8a26b2e8c0911c8920371
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Library\Artifacts\c4\c419e9278b2d2386a92ff0a078b15966
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\c4\c419e9278b2d2386a92ff0a078b15966
     projectPath: Library\Artifacts\c4\c419e9278b2d2386a92ff0a078b15966
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\c5\c5055651583a8fa01ec4adc810407677
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\c5\c5055651583a8fa01ec4adc810407677
-    projectPath: Library\Artifacts\c5\c5055651583a8fa01ec4adc810407677
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c6\c6ef6a54cd29c02dbb324428581e280e
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\c6\c6ef6a54cd29c02dbb324428581e280e
-    projectPath: Library\Artifacts\c6\c6ef6a54cd29c02dbb324428581e280e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\c7\c739b37d9dbe283d699fa9502df7b363
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\c7\c739b37d9dbe283d699fa9502df7b363
-    projectPath: Library\Artifacts\c7\c739b37d9dbe283d699fa9502df7b363
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -854,35 +230,11 @@ MonoBehaviour:
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\c9\c9b2cb8f90bb3b81113dd36ea005a82f
     projectPath: Library\Artifacts\c9\c9b2cb8f90bb3b81113dd36ea005a82f
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\cd\cd773d2a2d9f47d6b43f06d5ea7abb10
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\cd\cd773d2a2d9f47d6b43f06d5ea7abb10
     projectPath: Library\Artifacts\cd\cd773d2a2d9f47d6b43f06d5ea7abb10
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ce\ceaa46455befe665059532e5d759cef6
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\ce\ceaa46455befe665059532e5d759cef6
-    projectPath: Library\Artifacts\ce\ceaa46455befe665059532e5d759cef6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d1\d13b07d8187d594f58edadc20837923a
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\d1\d13b07d8187d594f58edadc20837923a
-    projectPath: Library\Artifacts\d1\d13b07d8187d594f58edadc20837923a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d3\d3639945b1643542eb83d1fc47d9b0ac
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\d3\d3639945b1643542eb83d1fc47d9b0ac
-    projectPath: Library\Artifacts\d3\d3639945b1643542eb83d1fc47d9b0ac
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\d6\d69f4edf04a5d9e1d0875da1ee26430b
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\d6\d69f4edf04a5d9e1d0875da1ee26430b
-    projectPath: Library\Artifacts\d6\d69f4edf04a5d9e1d0875da1ee26430b
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -890,47 +242,11 @@ MonoBehaviour:
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\d8\d8c9cc2829d80ff2c1e0376f5b7f0e63
     projectPath: Library\Artifacts\d8\d8c9cc2829d80ff2c1e0376f5b7f0e63
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\db\db1cee6e5b41b1d17d7707d95ff9206d
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\db\db1cee6e5b41b1d17d7707d95ff9206d
-    projectPath: Library\Artifacts\db\db1cee6e5b41b1d17d7707d95ff9206d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\dc\dc6d299c6943694ae9c8f496478e5d48
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\dc\dc6d299c6943694ae9c8f496478e5d48
-    projectPath: Library\Artifacts\dc\dc6d299c6943694ae9c8f496478e5d48
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\dc\dcfd81231f90fd47a82fced9f1d306c7
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\dc\dcfd81231f90fd47a82fced9f1d306c7
-    projectPath: Library\Artifacts\dc\dcfd81231f90fd47a82fced9f1d306c7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\dd\ddc659005195405376f619531dcbdc4d
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\dd\ddc659005195405376f619531dcbdc4d
-    projectPath: Library\Artifacts\dd\ddc659005195405376f619531dcbdc4d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\de\ded8be67313abfc9d4efc27e189b2d1a
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\de\ded8be67313abfc9d4efc27e189b2d1a
-    projectPath: Library\Artifacts\de\ded8be67313abfc9d4efc27e189b2d1a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\e4\e45e3452eefdc0ae37681e87849c30ac
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\e4\e45e3452eefdc0ae37681e87849c30ac
     projectPath: Library\Artifacts\e4\e45e3452eefdc0ae37681e87849c30ac
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\e4\e472dbfd18fce5d1ee4c859d65713677
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\e4\e472dbfd18fce5d1ee4c859d65713677
-    projectPath: Library\Artifacts\e4\e472dbfd18fce5d1ee4c859d65713677
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -938,29 +254,17 @@ MonoBehaviour:
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\e5\e5830aa494bdcd42c3aa09a50aea1c2d
     projectPath: Library\Artifacts\e5\e5830aa494bdcd42c3aa09a50aea1c2d
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\e5\e5d58f1fa852fcd4b65d3fa1d2cb32fe
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\e5\e5d58f1fa852fcd4b65d3fa1d2cb32fe
     projectPath: Library\Artifacts\e5\e5d58f1fa852fcd4b65d3fa1d2cb32fe
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\e6\e6ccb23cf44298be4a3b6a4bd8d27e30
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\e6\e6ccb23cf44298be4a3b6a4bd8d27e30
-    projectPath: Library\Artifacts\e6\e6ccb23cf44298be4a3b6a4bd8d27e30
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\e7\e75f161b9fd5ec8f6d2fc8ec121481b0
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\e7\e75f161b9fd5ec8f6d2fc8ec121481b0
-    projectPath: Library\Artifacts\e7\e75f161b9fd5ec8f6d2fc8ec121481b0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\e7\e78f490408bca29437c3690915beb980
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\e7\e78f490408bca29437c3690915beb980
-    projectPath: Library\Artifacts\e7\e78f490408bca29437c3690915beb980
+  - path: Library\Artifacts\e7\e705c7b7809323574316d8f371a93420
+    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\e7\e705c7b7809323574316d8f371a93420
+    projectPath: Library\Artifacts\e7\e705c7b7809323574316d8f371a93420
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -968,47 +272,29 @@ MonoBehaviour:
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\e7\e7d937169c905f04c07e6076079d6ebf
     projectPath: Library\Artifacts\e7\e7d937169c905f04c07e6076079d6ebf
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\e8\e884ae59288863b78def0d87441c1da9
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\e8\e884ae59288863b78def0d87441c1da9
-    projectPath: Library\Artifacts\e8\e884ae59288863b78def0d87441c1da9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\eb\eb3ed19a5dcd2d048bcb81b110ad59e3
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\eb\eb3ed19a5dcd2d048bcb81b110ad59e3
-    projectPath: Library\Artifacts\eb\eb3ed19a5dcd2d048bcb81b110ad59e3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\eb\ebb6219f1751fb714965bd9a72ad22ef
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\eb\ebb6219f1751fb714965bd9a72ad22ef
-    projectPath: Library\Artifacts\eb\ebb6219f1751fb714965bd9a72ad22ef
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ec\ecd6aec205112ed69b82768cf64064e5
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\ec\ecd6aec205112ed69b82768cf64064e5
-    projectPath: Library\Artifacts\ec\ecd6aec205112ed69b82768cf64064e5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ee\ee51e143291214712174c62d6e245582
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\ee\ee51e143291214712174c62d6e245582
-    projectPath: Library\Artifacts\ee\ee51e143291214712174c62d6e245582
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Library\Artifacts\ee\eeba49129351581b931c6d5ae94aa4bb
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\ee\eeba49129351581b931c6d5ae94aa4bb
     projectPath: Library\Artifacts\ee\eeba49129351581b931c6d5ae94aa4bb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\f6\f68e944534198a7e5f24aad8b8774a3c
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\f6\f68e944534198a7e5f24aad8b8774a3c
-    projectPath: Library\Artifacts\f6\f68e944534198a7e5f24aad8b8774a3c
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\f2\f24bff48b8b81faae9cd6e65504b8414
+    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\f2\f24bff48b8b81faae9cd6e65504b8414
+    projectPath: Library\Artifacts\f2\f24bff48b8b81faae9cd6e65504b8414
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\f4\f417b8942d260eee08dc5899e1c7f4cb
+    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\f4\f417b8942d260eee08dc5899e1c7f4cb
+    projectPath: Library\Artifacts\f4\f417b8942d260eee08dc5899e1c7f4cb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\f4\f497b0b58d153b3a4571ed976b321396
+    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\f4\f497b0b58d153b3a4571ed976b321396
+    projectPath: Library\Artifacts\f4\f497b0b58d153b3a4571ed976b321396
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1016,131 +302,17 @@ MonoBehaviour:
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\f9\f9688d5bd6754dc0aed6254d8d7c833e
     projectPath: Library\Artifacts\f9\f9688d5bd6754dc0aed6254d8d7c833e
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\fd\fd498cf6ad08343111a9f749ffb5564c
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\fd\fd498cf6ad08343111a9f749ffb5564c
-    projectPath: Library\Artifacts\fd\fd498cf6ad08343111a9f749ffb5564c
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\ff\ff3cfad1a034577ea33df34e1cdeb250
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\ff\ff3cfad1a034577ea33df34e1cdeb250
-    projectPath: Library\Artifacts\ff\ff3cfad1a034577ea33df34e1cdeb250
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\ff\ff61bb7f761b110142877bb301a345b9
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Artifacts\ff\ff61bb7f761b110142877bb301a345b9
-    projectPath: Library\Artifacts\ff\ff61bb7f761b110142877bb301a345b9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Bee\500b0aE.dag
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Bee\500b0aE.dag
-    projectPath: Library\Bee\500b0aE.dag
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\500b0aE.dag.json
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Bee\500b0aE.dag.json
-    projectPath: Library\Bee\500b0aE.dag.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\500b0aE.dag_derived
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Bee\500b0aE.dag_derived
-    projectPath: Library\Bee\500b0aE.dag_derived
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\Bee\500b0aE.dag_fsmtime
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Bee\500b0aE.dag_fsmtime
     projectPath: Library\Bee\500b0aE.dag_fsmtime
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Bee\500b0aE-inputdata.json
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Bee\500b0aE-inputdata.json
-    projectPath: Library\Bee\500b0aE-inputdata.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\500b0aP.dag
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Bee\500b0aP.dag
-    projectPath: Library\Bee\500b0aP.dag
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\500b0aP.dag.json
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Bee\500b0aP.dag.json
-    projectPath: Library\Bee\500b0aP.dag.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\500b0aP.dag_derived
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Bee\500b0aP.dag_derived
-    projectPath: Library\Bee\500b0aP.dag_derived
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\Bee\500b0aP.dag_fsmtime
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Bee\500b0aP.dag_fsmtime
     projectPath: Library\Bee\500b0aP.dag_fsmtime
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\500b0aP-inputdata.json
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Bee\500b0aP-inputdata.json
-    projectPath: Library\Bee\500b0aP-inputdata.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\500b0aE.dag\Assembly-CSharp.dll
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Bee\artifacts\500b0aE.dag\Assembly-CSharp.dll
-    projectPath: Library\Bee\artifacts\500b0aE.dag\Assembly-CSharp.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\500b0aE.dag\Assembly-CSharp.pdb
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Bee\artifacts\500b0aE.dag\Assembly-CSharp.pdb
-    projectPath: Library\Bee\artifacts\500b0aE.dag\Assembly-CSharp.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\500b0aE.dag\Assembly-CSharp.ref.dll
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Bee\artifacts\500b0aE.dag\Assembly-CSharp.ref.dll
-    projectPath: Library\Bee\artifacts\500b0aE.dag\Assembly-CSharp.ref.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\500b0aE.dag\Assembly-CSharp.rsp
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Bee\artifacts\500b0aE.dag\Assembly-CSharp.rsp
-    projectPath: Library\Bee\artifacts\500b0aE.dag\Assembly-CSharp.rsp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\500b0aP.dag\Assembly-CSharp.dll
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Bee\artifacts\500b0aP.dag\Assembly-CSharp.dll
-    projectPath: Library\Bee\artifacts\500b0aP.dag\Assembly-CSharp.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\500b0aP.dag\Assembly-CSharp.pdb
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Bee\artifacts\500b0aP.dag\Assembly-CSharp.pdb
-    projectPath: Library\Bee\artifacts\500b0aP.dag\Assembly-CSharp.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\500b0aP.dag\Assembly-CSharp.ref.dll
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Bee\artifacts\500b0aP.dag\Assembly-CSharp.ref.dll
-    projectPath: Library\Bee\artifacts\500b0aP.dag\Assembly-CSharp.ref.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\Bee\artifacts\500b0aP.dag\Assembly-CSharp.rsp
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Bee\artifacts\500b0aP.dag\Assembly-CSharp.rsp
-    projectPath: Library\Bee\artifacts\500b0aP.dag\Assembly-CSharp.rsp
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1162,21 +334,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Bee\TundraBuildState.state
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Bee\TundraBuildState.state
-    projectPath: Library\Bee\TundraBuildState.state
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\Bee\TundraBuildState.state.map
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\Bee\TundraBuildState.state.map
     projectPath: Library\Bee\TundraBuildState.state.map
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\CurrentMaximizeLayout.dwlt
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\CurrentMaximizeLayout.dwlt
-    projectPath: Library\CurrentMaximizeLayout.dwlt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1186,12 +346,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\gfu\cache\branches.yaml
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
@@ -1222,12 +376,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\LastBuild.buildreport
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\LastBuild.buildreport
     projectPath: Library\LastBuild.buildreport
@@ -1240,111 +388,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win\Data\globalgamemanagers.assets
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\PlayerDataCache\Win\Data\globalgamemanagers.assets
-    projectPath: Library\PlayerDataCache\Win\Data\globalgamemanagers.assets
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\PlayerDataCache\Win\Data\level0
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\PlayerDataCache\Win\Data\level0
     projectPath: Library\PlayerDataCache\Win\Data\level0
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win\Data\level1
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\PlayerDataCache\Win\Data\level1
-    projectPath: Library\PlayerDataCache\Win\Data\level1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win\Data\level2
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\PlayerDataCache\Win\Data\level2
-    projectPath: Library\PlayerDataCache\Win\Data\level2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win\Data\level3
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\PlayerDataCache\Win\Data\level3
-    projectPath: Library\PlayerDataCache\Win\Data\level3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win\Data\level4
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\PlayerDataCache\Win\Data\level4
-    projectPath: Library\PlayerDataCache\Win\Data\level4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win\Data\level5
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\PlayerDataCache\Win\Data\level5
-    projectPath: Library\PlayerDataCache\Win\Data\level5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win\Data\level6
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\PlayerDataCache\Win\Data\level6
-    projectPath: Library\PlayerDataCache\Win\Data\level6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win\Data\Managed\Assembly-CSharp.dll
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\PlayerDataCache\Win\Data\Managed\Assembly-CSharp.dll
-    projectPath: Library\PlayerDataCache\Win\Data\Managed\Assembly-CSharp.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win\Data\resources.assets
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\PlayerDataCache\Win\Data\resources.assets
-    projectPath: Library\PlayerDataCache\Win\Data\resources.assets
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\PlayerDataCache\Win\Data\sharedassets0.assets
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\PlayerDataCache\Win\Data\sharedassets0.assets
     projectPath: Library\PlayerDataCache\Win\Data\sharedassets0.assets
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win\Data\sharedassets1.assets
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\PlayerDataCache\Win\Data\sharedassets1.assets
-    projectPath: Library\PlayerDataCache\Win\Data\sharedassets1.assets
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win\Data\sharedassets2.assets
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\PlayerDataCache\Win\Data\sharedassets2.assets
-    projectPath: Library\PlayerDataCache\Win\Data\sharedassets2.assets
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win\Data\sharedassets3.assets
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\PlayerDataCache\Win\Data\sharedassets3.assets
-    projectPath: Library\PlayerDataCache\Win\Data\sharedassets3.assets
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win\Data\sharedassets4.assets
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\PlayerDataCache\Win\Data\sharedassets4.assets
-    projectPath: Library\PlayerDataCache\Win\Data\sharedassets4.assets
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win\Data\sharedassets4.resource
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\PlayerDataCache\Win\Data\sharedassets4.resource
-    projectPath: Library\PlayerDataCache\Win\Data\sharedassets4.resource
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win\Data\sharedassets5.assets
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\PlayerDataCache\Win\Data\sharedassets5.assets
-    projectPath: Library\PlayerDataCache\Win\Data\sharedassets5.assets
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Win\Data\sharedassets6.assets
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\PlayerDataCache\Win\Data\sharedassets6.assets
-    projectPath: Library\PlayerDataCache\Win\Data\sharedassets6.assets
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1357,18 +409,6 @@ MonoBehaviour:
   - path: Library\SceneVisibilityState.asset
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\SceneVisibilityState.asset
     projectPath: Library\SceneVisibilityState.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\ScriptAssemblies\Assembly-CSharp.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Library\ScriptAssemblies\Assembly-CSharp.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1407,7 +447,7 @@ MonoBehaviour:
     projectPath: Logs\AssetImportWorker0.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Logs\AssetImportWorker0-prev.log
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Logs\AssetImportWorker0-prev.log
     projectPath: Logs\AssetImportWorker0-prev.log
@@ -1419,7 +459,7 @@ MonoBehaviour:
     projectPath: Logs\shadercompiler-AssetImportWorker0.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Logs\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Logs\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
@@ -1465,24 +505,6 @@ MonoBehaviour:
   - path: Logs\shadercompiler-UnityShaderCompiler.exe7.log
     fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\Logs\shadercompiler-UnityShaderCompiler.exe7.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe7.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1636,9 +658,3 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: UserSettings\EditorUserSettings.asset
-    fullPath: E:\nils\programmieren\fertig\C#\Unity\Herr Schloesser\UserSettings\EditorUserSettings.asset
-    projectPath: UserSettings\EditorUserSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
