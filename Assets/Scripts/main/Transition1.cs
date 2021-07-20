@@ -35,10 +35,11 @@ public class Transition1 : MonoBehaviour
     {
         im.enabled = true;
         Color c = im.color;
+        im.color = new Color(c.r, c.g, c.b, 0);
         if (sound) sound.Play();
         for (int i = 0; i < FadeSteps; i++)
         {
-            im.color = new Color(c.r, c.g, c.b, 255 / FadeSteps * i);
+            im.color = new Color(c.r, c.g, c.b, im.color.a + (1 / FadeSteps));
             yield return new WaitForSecondsRealtime(frametime);
             if (Time.timeScale == 0) yield return new WaitWhile(() => Time.timeScale == 0);
         }

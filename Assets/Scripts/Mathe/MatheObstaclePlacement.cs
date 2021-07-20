@@ -49,7 +49,7 @@ public class MatheObstaclePlacement : MonoBehaviour
             if (SpawnRate != prevSpawnRate)
             {
                 prevSpawnRate = SpawnRate;
-                AlertHarder();
+                if (w != 0) AlertHarder();
             }
 
             if (FloorSpeed != FloorSpeeds[(int)Mathf.Floor(w)])

@@ -26,6 +26,11 @@ public class CreditsAnimationTiming : MonoBehaviour
         yield return new WaitForSecondsRealtime(wait2);
         ani.SetBool("active", false );
         yield return new WaitForSecondsRealtime(2);
-        Application.Quit();
+        if (t) Application.Quit();
+        if (!t)
+        {
+            changescene c = GetComponent<changescene>();
+            if (c) c.change("MainMenu");
+        }
     }
 }

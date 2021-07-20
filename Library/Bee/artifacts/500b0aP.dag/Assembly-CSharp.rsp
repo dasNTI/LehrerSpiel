@@ -322,6 +322,7 @@
 "Assets/Scripts/MainMenu/StartCredits.cs"
 "Assets/Scripts/Mathe/MatheCameraMovement.cs"
 "Assets/Scripts/Mathe/MatheFloorMovement.cs"
+"Assets/Scripts/Mathe/MatheGoalReached.cs"
 "Assets/Scripts/Mathe/MatheLifeSprite.cs"
 "Assets/Scripts/Mathe/MatheObstacleMovement.cs"
 "Assets/Scripts/Mathe/MatheObstaclePlacement.cs"

@@ -132,7 +132,7 @@ public class MathePlayerMovement : MonoBehaviour
     IEnumerator walk()
     {
         int i = 0;
-        float dur = 0.3f;
+        float dur = 0.2f;
         while (true)
         {
             sr.sprite = sprites[i];

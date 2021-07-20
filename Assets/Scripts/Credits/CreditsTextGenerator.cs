@@ -17,7 +17,7 @@ public class CreditsTextGenerator : MonoBehaviour
         Debug.Log(Camera.main.ScreenToWorldPoint(new Vector3(Screen.width / 2, Screen.height, 0)));
         rt.anchoredPosition = new Vector2(
             rt.anchoredPosition.x,
-            -Screen.height * 1.01f
+            -Screen.height * 1.1f
         );
     }
 
