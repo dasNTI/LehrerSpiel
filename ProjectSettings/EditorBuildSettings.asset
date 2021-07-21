@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MatheCutscene.unity
     guid: a0851bc93a7cd1146ba6ab18b01c0fd3
+  - enabled: 1
+    path: Assets/Scenes/Brief.unity
+    guid: 7557e68f944b1884797c14ec62ac2e6e
   m_configObjects: {}

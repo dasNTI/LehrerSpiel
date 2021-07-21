@@ -20,7 +20,7 @@ public class Transition0 : MonoBehaviour
 
     public IEnumerator transOut()
     {
-        sound.Play();
+        if (sound) sound.Play();
         for (int i = 0; i < sprites.Length; i++)
         {
             im.sprite = sprites[i];
@@ -32,9 +32,9 @@ public class Transition0 : MonoBehaviour
 
     public IEnumerator transIn()
     {
-        im.enabled = true;      
-        sound.Play();
-        for (int i = sprites.Length; i > 0; i++)
+        im.enabled = true;
+        if (sound) sound.Play();
+        for (int i = sprites.Length - 1; i >= 0; i--)
         {
             im.sprite = sprites[i];
             yield return new WaitForSecondsRealtime(frametime);

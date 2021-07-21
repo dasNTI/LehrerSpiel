@@ -17,6 +17,6 @@ public class MatheWayCounter : MonoBehaviour
     
     void Update()
     {
-        Current += mfm.dir / 10;
+        if (!Pausing.Paused) Current += mfm.dir / 10;
     }
 }

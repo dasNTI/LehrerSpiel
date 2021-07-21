@@ -62,7 +62,7 @@ public class MatheObstaclePlacement : MonoBehaviour
 
     void spawn()
     {
-        //Debug.Log("yeet");
+        Debug.Log("yeet");
         int t = Random.Range(0, 4);
         int row = 0;
 
@@ -127,12 +127,12 @@ public class MatheObstaclePlacement : MonoBehaviour
     public IEnumerator routine()
     {
         yield return new WaitForSecondsRealtime(1);
-        bool rep = true;
         while (Spawning)
         {
             spawn();
             yield return new WaitForSecondsRealtime(Random.RandomRange(0.5f, SpawnRate + 1.0f));
             if (Pause) yield return new WaitWhile(() => Pause);
+            if (Pausing.Paused) yield return new WaitWhile(() => Pausing.Paused);
         }
     }
 

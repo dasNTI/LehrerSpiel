@@ -24,8 +24,11 @@ public class MatheObstacleMovement : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(new Vector3(0, -mfm.dir, 0));
-        if (transform.position.y < -8) Destroy(transform.gameObject);
+        if (!Pausing.Paused)
+        {
+            transform.Translate(new Vector3(0, -mfm.dir, 0));
+            if (transform.position.y < -8) Destroy(transform.gameObject);
+        }
 
         //if (transform.position.y <= PlayerY) transform.position = new Vector3(transform.position.x, transform.position.y, -2);
     }

@@ -25,6 +25,9 @@ public class MathePlayerMovement : MonoBehaviour
     private Moves moves;
     private MatheFloorMovement mfm;
     private MatheObstaclePlacement mop;
+
+    private bool finished = false;
+    private float finishedSpeed;
     void Start()
     {
         bc = GetComponent<BoxCollider2D>();
@@ -70,6 +73,7 @@ public class MathePlayerMovement : MonoBehaviour
                 GameObject.Find("Schoop").GetComponent<MatheObstaclePlacement>().Spawning = false;
                 GameObject.Find("Deathtext").GetComponent<DeathtextChoose>().choose();
                 StartCoroutine(GameObject.Find("Music").GetComponent<SoundSpindown>().Spindown());
+                Pausing.Pausable = false;
             }else
             {
                 StartCoroutine(crashed());
@@ -79,6 +83,12 @@ public class MathePlayerMovement : MonoBehaviour
             
         if (!crash) transform.position = new Vector3((row * 2 + 1) * 11 / rows / 2 - 5.5f, y, 0);
         if (crash && lives == 0) transform.Translate(new Vector3(0, -GameObject.FindGameObjectWithTag("Ground").GetComponent<MatheFloorMovement>().dir, 0));
+
+        if (finished && transform.position.y < 10)
+        {
+            transform.Translate(new Vector3(0, finishedSpeed, 0));
+        }
+
     }
 
     IEnumerator change(float r)
@@ -169,7 +179,23 @@ public class MathePlayerMovement : MonoBehaviour
         GameObject.Find("Music").GetComponent<SoundSpindown>().Restart();
         CrashOverlayAni2();
         StartCoroutine(walk());
-        changing = false;
+        changing = false;   
+        Pausing.Pausable = true;
         row = 1;
+    }
+
+    public void finish()
+    {
+        StartCoroutine(f());
+    }
+
+    IEnumerator f()
+    {
+        yield return new WaitForSecondsRealtime(2);
+        finishedSpeed = mfm.speed;
+        finished = true;
+        mfm.speed = 0;
+        mfm.dir = 0;
+        Debug.Log(finishedSpeed);
     }
 }   

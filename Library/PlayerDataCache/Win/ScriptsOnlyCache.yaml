@@ -10,6 +10,7 @@ ScriptsOnlyBuild:
     - Maske
     - MatheCameraMovement
     - MatheFloorMovement
+    - MatheGoToLevels
     - MatheGoalReached
     - MatheLifeSprite
     - MatheObstaclePlacement
@@ -17,6 +18,7 @@ ScriptsOnlyBuild:
     - MatheProgressMovement
     - MatheWayCounter
     - NoPart
+    - PauseMenu
     - PlayerMovement
     - "Schl\xF6sserEyeMovement"
     - SoundSpindown
@@ -26,6 +28,7 @@ ScriptsOnlyBuild:
     - Trampoline
     - Transition0
     - Transition1
+    - Transition1ToCredits
     - VoiceLine
     - changescene
     GitHub.Unity.45.dll:
@@ -110,8 +113,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -134,6 +139,59 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
+    Assets/Scenes/Brief.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1696}
+    - Class: 114
+      Script: {instanceID: 1698}
+    - Class: 114
+      Script: {instanceID: 2744}
+    - Class: 114
+      Script: {instanceID: 3190}
+    - Class: 114
+      Script: {instanceID: 3260}
+    - Class: 114
+      Script: {instanceID: 3268}
+    - Class: 114
+      Script: {instanceID: 5250}
+    - Class: 114
+      Script: {instanceID: 5938}
+    - Class: 114
+      Script: {instanceID: 6086}
+    - Class: 114
+      Script: {instanceID: 6422}
+    - Class: 114
+      Script: {instanceID: 76892}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/Credits.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -166,7 +224,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1698}
     - Class: 114
-      Script: {instanceID: 2746}
+      Script: {instanceID: 2744}
     - Class: 114
       Script: {instanceID: 3260}
     - Class: 114
@@ -217,17 +275,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1698}
     - Class: 114
-      Script: {instanceID: 2326}
+      Script: {instanceID: 2324}
     - Class: 114
-      Script: {instanceID: 2746}
+      Script: {instanceID: 2744}
     - Class: 114
       Script: {instanceID: 3190}
+    - Class: 114
+      Script: {instanceID: 3260}
+    - Class: 114
+      Script: {instanceID: 3268}
     - Class: 114
       Script: {instanceID: 5132}
     - Class: 114
       Script: {instanceID: 5938}
     - Class: 114
       Script: {instanceID: 6422}
+    - Class: 114
+      Script: {instanceID: 7768}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -235,8 +299,6 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
-      Script: {instanceID: 0}
-    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -276,21 +338,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1698}
     - Class: 114
-      Script: {instanceID: 1708}
+      Script: {instanceID: 1706}
     - Class: 114
-      Script: {instanceID: 1842}
+      Script: {instanceID: 1840}
     - Class: 114
-      Script: {instanceID: 2254}
+      Script: {instanceID: 2252}
     - Class: 114
-      Script: {instanceID: 2258}
+      Script: {instanceID: 2256}
     - Class: 114
-      Script: {instanceID: 2326}
+      Script: {instanceID: 2324}
     - Class: 114
-      Script: {instanceID: 2430}
+      Script: {instanceID: 2428}
     - Class: 114
-      Script: {instanceID: 2526}
+      Script: {instanceID: 2524}
     - Class: 114
-      Script: {instanceID: 2746}
+      Script: {instanceID: 2744}
     - Class: 114
       Script: {instanceID: 3190}
     - Class: 114
@@ -425,9 +487,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1698}
     - Class: 114
-      Script: {instanceID: 2326}
+      Script: {instanceID: 2324}
     - Class: 114
-      Script: {instanceID: 2746}
+      Script: {instanceID: 2744}
+    - Class: 114
+      Script: {instanceID: 2850}
     - Class: 114
       Script: {instanceID: 3190}
     - Class: 114
@@ -479,7 +543,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7900}
     - Class: 114
-      Script: {instanceID: 32774}
+      Script: {instanceID: 34706}
+    - Class: 114
+      Script: {instanceID: 34734}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -534,9 +600,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1698}
     - Class: 114
-      Script: {instanceID: 2062}
+      Script: {instanceID: 2060}
     - Class: 114
-      Script: {instanceID: 2746}
+      Script: {instanceID: 2744}
     - Class: 114
       Script: {instanceID: 3190}
     - Class: 114
@@ -593,9 +659,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1698}
     - Class: 114
-      Script: {instanceID: 2062}
+      Script: {instanceID: 2060}
     - Class: 114
-      Script: {instanceID: 2746}
+      Script: {instanceID: 2744}
     - Class: 114
       Script: {instanceID: 3190}
     - Class: 114
@@ -668,15 +734,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1698}
     - Class: 114
-      Script: {instanceID: 2044}
+      Script: {instanceID: 2042}
     - Class: 114
-      Script: {instanceID: 2300}
+      Script: {instanceID: 2298}
     - Class: 114
-      Script: {instanceID: 2378}
+      Script: {instanceID: 2376}
     - Class: 114
-      Script: {instanceID: 2516}
+      Script: {instanceID: 2514}
     - Class: 114
-      Script: {instanceID: 2746}
+      Script: {instanceID: 2744}
     - Class: 114
       Script: {instanceID: 3260}
     - Class: 114
@@ -998,6 +1064,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 8c04e07dc92200357b15b652c1b6e550
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MatheGoalReached
   - hash:
       serializedVersion: 2
       Hash: 1f0602e7bad1e0a9cba31ce292eee8bb
@@ -1720,7 +1792,7 @@ ScriptsOnlyBuild:
     className: AudioPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 5cf77af94b5eab11294825863ef48081
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MatheProgressMovement
@@ -1912,10 +1984,22 @@ ScriptsOnlyBuild:
     className: FabrikSolver2D
   - hash:
       serializedVersion: 2
-      Hash: 8c04e07dc92200357b15b652c1b6e550
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: MatheGoalReached
+    className: PauseMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MatheGoToLevels
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Transition1ToCredits
   platform: 5
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
@@ -1925,4 +2009,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Credits.unity
   - Assets/Scenes/PhysikCutscene.unity
   - Assets/Scenes/MatheCutscene.unity
+  - Assets/Scenes/Brief.unity
   playerPath: "E:/nils/programmieren/fertig/C#/Unity/Herr Schloesser/Builds/HerrSchl\xF6sser.exe"

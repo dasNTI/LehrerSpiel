@@ -20,11 +20,12 @@ public class Transition1 : MonoBehaviour
 
     public IEnumerator transOut()
     {
+        im.enabled = true;
         Color c = im.color;
         if (sound) sound.Play();
         for (int i = 1; i < FadeSteps; i++)
         {
-            im.color = new Color(c.r, c.g, c.b, im.color.a - (1 / FadeSteps));
+            im.color = new Color(c.r, c.g, c.b, im.color.a - (1f / FadeSteps));
             yield return new WaitForSecondsRealtime(frametime);
             if (Time.timeScale == 0) yield return new WaitWhile(() => Time.timeScale == 0);
         }
@@ -39,7 +40,7 @@ public class Transition1 : MonoBehaviour
         if (sound) sound.Play();
         for (int i = 0; i < FadeSteps; i++)
         {
-            im.color = new Color(c.r, c.g, c.b, im.color.a + (1 / FadeSteps));
+            im.color = new Color(c.r, c.g, c.b, im.color.a + (1f / FadeSteps));
             yield return new WaitForSecondsRealtime(frametime);
             if (Time.timeScale == 0) yield return new WaitWhile(() => Time.timeScale == 0);
         }

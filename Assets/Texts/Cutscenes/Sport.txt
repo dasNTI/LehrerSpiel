@@ -1,4 +1,20 @@
-- Das meinen sie nicht ernst, oder?! Muss ich jetzt wirklich Sport mit Maske machen!?
-
-- Was machen Sie denn hier?
-- Weiß ich selber nicht so genau. Meine Klasse will, dass ich den Unterricht aus ihrer Sicht erlebe…
+Du liest dir den Zettel erneut durch, noch immer verwirrt von seinem Text. /4
+Warum will deine Klasse, dass du ihren Unterricht machst? /3
+Und warum sollst du ausgerechnet mit Sport anfangen? /2
+Dein Kopf ist voller Fragen. /2
+Du lässt dein Material von vorhin im Raum liegen und machst dich lustlos auf Richtung Sporthalle. /5
+/1
+Vor der Halle angekommen, klingelst du an der Tür. /3
+Dir macht tatsächlich die Sportlehrerin der Klasse auf. /3
+Sie fragt, was du hier machst. /2
+Du weißt es auch nicht wirklich, deine Klasse hat ich hier hin geschickt. /4
+Du sollst wohl ihren Sportunterricht machen oder so. /3
+/1
+Sie schaut dich verdutzt an. /2
+Sie lässt dich dennoch hinein und gibt dir ein paar Aufgaben mit. /3
+Einige stammen aus dem richtugen Unterricht, /2
+andere sind aus anderen Themen, weil's ja Spaß macht, richtig? /3
+Du stimmst zu, immer noch verwirrt von deiner Aufgabe. /3
+Sie verabschiedet sich, weil sie gerade noch eine ander Klasse unterrichtet. /4
+Du machst dich auf in die Halle. /2
+/1

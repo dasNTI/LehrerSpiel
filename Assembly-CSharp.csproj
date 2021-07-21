@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\Sport\TennisBallMovement.cs" />
     <Compile Include="Assets\Packages\SoftEffects\Scripts\CGHolder.cs" />
     <Compile Include="Assets\Scripts\main\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Mathe\MatheGoalReached.cs" />
     <Compile Include="Assets\Scripts\main\Transition1.cs" />
     <Compile Include="Assets\Packages\FinalVignette\Assets\Scripts\FinalVignette.cs" />
     <Compile Include="Assets\Scripts\Credits\CreditsAnimationTiming.cs" />
@@ -93,7 +94,9 @@
     <Compile Include="Assets\Scripts\main\Transition0.cs" />
     <Compile Include="Assets\Packages\SoftEffects\Scripts\SoftEffectsFont.cs" />
     <Compile Include="Assets\Scripts\Mathe\MatheFloorMovement.cs" />
-    <Compile Include="Assets\Scripts\Mathe\MatheGoalReached.cs" />
+    <Compile Include="Assets\Scripts\main\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\Mathe\MatheGoToLevels.cs" />
+    <Compile Include="Assets\Scripts\Cutscenes\Transition1ToCredits.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -113,6 +116,7 @@
     <None Include="Assets\Texts\Cutscenes\MatheDialog.txt" />
     <None Include="Assets\Packages\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\Scenes\Endtext.txt" />
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\Packages\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\Packages\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />

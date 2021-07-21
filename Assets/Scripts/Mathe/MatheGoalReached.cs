@@ -6,21 +6,36 @@ public class MatheGoalReached : MonoBehaviour
 {
     private MatheWayCounter mwc;
     private MatheObstaclePlacement mop;
+    private MathePlayerMovement mpm;
 
     public AudioSource Music;
     public AudioSource End;
+
+    bool done = false;
+
     void Start()
     {
         mwc = GetComponent<MatheWayCounter>();
         mop = GameObject.Find("Schoop").GetComponent<MatheObstaclePlacement>();
-        StartCoroutine(wait());
+        mpm = GameObject.FindGameObjectWithTag("Player").GetComponent<MathePlayerMovement>();
     }
 
-    IEnumerator wait()
+    private void Update()
     {
-        yield return new WaitUntil(() => mwc.Current >= mwc.FinishLine);
+        if (mwc.Current > mwc.FinishLine && !done)
+        {
+            done = true;
+            wait();
+        }
+
+        if (mwc.Current < mwc.FinishLine & done) done = false;
+    }
+
+    void wait()
+    {
         mop.Spawning = false;
         StartCoroutine(fade());
+        mpm.finish();
         End.Play();
     }
 

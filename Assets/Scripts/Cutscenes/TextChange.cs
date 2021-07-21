@@ -24,7 +24,7 @@ public class TextChange : MonoBehaviour
     WaitForSecondsRealtime ShowLine(int l)
     {
         string i = lines[l];
-        string[] p = lines[l].Split('/');
+        string[] p = lines[l].Split('|');
         if (i.StartsWith("{"))
         {
             int z = int.Parse(p[0].Substring(1));

@@ -25,7 +25,7 @@ public class MatheFloorMovement : MonoBehaviour
             }
         }
 
-        transform.Translate(new Vector3(0, -dir, 0));
+        if (!Pausing.Paused) transform.Translate(new Vector3(0, -dir, 0));
         if (transform.position.y <= stop.y) transform.position = start;
     }
 }

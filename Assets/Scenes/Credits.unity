@@ -618,7 +618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   credits: {fileID: 4900000, guid: 4d2f448904103d7458e398f703cf92e6, type: 3}
-  speed: 0.6
+  speed: 0.7
 --- !u!114 &1322522153
 MonoBehaviour:
   m_ObjectHideFlags: 0

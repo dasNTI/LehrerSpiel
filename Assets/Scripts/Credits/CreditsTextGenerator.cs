@@ -25,7 +25,7 @@ public class CreditsTextGenerator : MonoBehaviour
     {
         rt.anchoredPosition = new Vector2(
             rt.anchoredPosition.x,
-            rt.anchoredPosition.y + speed
+            rt.anchoredPosition.y + speed // 640 * Screen.height
         );
     }
 }

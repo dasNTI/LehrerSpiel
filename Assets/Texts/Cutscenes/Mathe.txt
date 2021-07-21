@@ -1,18 +1,33 @@
-- Da sind Sie ja endlich! /2
-Sie sind schon 4 Minuten und 36 Sekunden zu spät, /3
-ich wollte gerade schon gehen. /2
-Na immerhin kommt noch jemand für die Tasche, /3
-ist Joshua schon wieder abwesend? /2
-- Sorry, aber- /1
-- Es heißt Verzeihung! /2
+Ermüdet vom Sportmachen kommst du wieder in die Agora. |3
+Als nächstes soll Mathe dran sein, also gehst du Richtung Klassenraum. |4
+Dort angekommen schaust du durch die Tür, jedoch ist niemand da. |4
+In der Vergangenheit soll sie ja schon öfter zu spät gekommen sein. |4
+Da gab es ja anscheinend auch noch die Geschichte mit Joshua. |3
+Du machst dich auf den Weg zum Lehrerzimmer, um dort zu schauen. |3
+|1
+Tatsächlich, unten siehst du sie im Türrahmen stehen. |3
+Sie hat ihre Tasche unterm Arm und scheint auf jemanden zu warten. |4
+Als sie dich entdeckt, geht sie direkt auf dich zu. |3
+Sie: "Da sind Sie ja endlich!" |3
+"Sie sind schon 4 Minuten und 36 Sekunden zu spät," |4
+"ich wollte gerade schon gehen." |3
+"Na immerhin kommt noch jemand für die Tasche," |4
+"ist Joshua schon wieder abwesend?" |3
+Du: "Sorry, aber-" |2
+Sie: "Es heißt Verzeihung!" |3
+|1
+Du: "Verzeihung, aber hätte meine Klasse mich nicht dazu gezwungen," |4
+"Sport zu machen, hätten Sie nicht warten müssen." |4
+Sie: "Dann beeilen Sie sich aber auch," |2
+"sonst verspäten wir uns wirklich noch zum Unterrichtsbeginn!" |4
+|2
+Während des kurzen Gesprächs |2
+geht dir ihre erhobene Art immer mehr auf die Nerven. |4
+Dies sei in der Vergangenheit nicht nur dir so ergangen. |4
+Auch deine Klasse habe nicht viel Gutes über sie zu erzählen gehabt. |4
+Dir kommt eine Idee. |2
+Du bietest ihr an, ihre Tasche für sie zu tragen. |3
+Dankbar drückt sie dir ihre Tasche in die Hand. |3
+Nach einem kurzen "Kein Problem" wechselst du die Richtung und verschwindest mit der Tasche von hier. |6
+Empört und aufgebracht läuft sie dir hinterher. |3
 /1
-- Verzeihung, aber hätte meine Klasse mich nicht dazu gezwungen, /3
-Sport zu machen, hätten Sie nicht warten müssen. /3
-- Dann beeilen Sie sich aber auch, /1
-sonst verspäten wir uns wirklich noch zum Unterrichtsbeginn! /3
-/2
-Während des kurzen Gesprächs /2
-geht dir ihre erhobene Art immer mehr auf die Nerven. /3
-Kurzerhand beschließt du die Tasche, /3
-die sie dir soeben gereicht hat, mitzunehmen und von hier zu verschwinden. /3
-Empört und aufgebracht läuft sie dir hinterher. /4
